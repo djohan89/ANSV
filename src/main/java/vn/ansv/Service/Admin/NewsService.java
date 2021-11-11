@@ -46,4 +46,17 @@ public class NewsService {
 		newsDao.delete(id);
 	}
 	
+	public List<NewsDto> findLimitByType1() {
+		return newsDao.findLimitByType1();
+	}
+	public List<NewsDto> findLimitByType2() {
+		return newsDao.findLimitByType2();
+	}
+	public List<NewsDto> findLimitByType3() {
+		return newsDao.findLimitByType3();
+	}
+	public List<NewsDto> findLimitByType4() {
+		return newsDao.findLimitByType4();
+	}
+	
 }

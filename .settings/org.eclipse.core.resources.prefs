@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//src/main/java/vn/ansv/Dao/NewsDao.java=UTF-8
 encoding//src/main/java/vn/ansv/controller/Admin/FileUploadController.java=UTF-8
 encoding//src/main/java/vn/ansv/controller/Admin/HighlightController.java=UTF-8
 encoding//src/main/java/vn/ansv/controller/Admin/LoginController.java=UTF-8

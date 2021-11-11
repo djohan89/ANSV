@@ -11,18 +11,23 @@
 					<div class="card ">
 						<div class="header">
 							<div class="row">
-								<div class="col-md-10">
+								<div class="col-md-9">
 									<h3 class="title">
-										Admin: <b>Tin tức</b>
+										Admin: <b>Tin tức (${listNews.size()})</b>
 									</h3>
 								<p class="category">Quản trị mục tin tức</p>
 								</div>
-								<div class="col-md-2">
+								<div class="col-md-3">
 									<c:url value="/admin/news/save" var="urlSave" />
 									<c:url value="/admin/news/update" var="urlUpdate" />
 									<c:url value="/admin/newsDelete" var="urlDelete" />
 									<a href="${urlSave}" style="float: right;">
 										<button type="button" class="btn btn-primary btn-fill btn-wd"><b>Add News</b></button>
+									</a>
+									<a href="<c:url value='/trang-chu#muc-tin-tuc' />" target="_blank" style="padding-left: 10%;">
+										<button type="button" class="btn btn-success btn-fill btn-wd" style="min-width: 80px;">
+											<b>View</b>
+										</button>
 									</a>
 								</div>
 							</div>
@@ -35,18 +40,11 @@
 											<tr>
 												<th>Mã</th>
 												<th>Hình ảnh</th>
-												<th>Title</th>
-												<th>Content</th>
-												<th>Url</th>
-												<th>Classify</th>
-												<th>Updated by</th>
-												<th style="width: 82px;" class="text-center">Hiển thị</th>
-												<th style="width: 82px;" class="text-center">Sửa</th>
-												
-												<c:if test="${ listNews.size() > 5 }">
-													<th style="width: 98px;" class="text-center">Xoá</th>
-												</c:if>
-												
+												<th>Tiêu đề</th>
+												<th>Link</th>
+												<th>Phân loại</th>
+												<th>Người đăng</th>
+												<td align="center" style="width: 105px;"><b>Thao tác</b></td>
 											</tr>
 											<c:if test="${not empty listNews}">
 												<c:forEach var="news" items="${ listNews }" varStatus="index">
@@ -56,7 +54,6 @@
 															<img src="<c:url value='/assets/user/img/news/${news.img}' />" width="150px" />
 														</td>
 														<td>${news.title}</td>
-														<td>${news.content}</td>
 														<td>${news.url}</td>
 														<td>
 															${news.classify}
@@ -65,29 +62,24 @@
 															${news.updated_by}<hr style="margin: 5px 0 5px 0;">
 															<i>${news.updated_at}</i>
 														</td>
-														<td>
-															<a href="<c:url value='/trang-chu#muc-tin-tuc' />" target="_blank">
-																<button type="button" class="btn btn-success btn-fill btn-wd" style="min-width: 64px;">
-																	<b>View</b>
-																</button>
-															</a>
-														</td>
-														<td>
-															<a href="${urlUpdate}/${news.id}" style="margin-left: 10px;">
-																<button type="button" class="btn btn-warning btn-fill btn-wd" style="min-width: 58px;">
+														<td style="padding-left: 10px;">
+															<a href="${urlUpdate}/${news.id}">
+																<button type="button" class="btn btn-warning btn-fill btn-wd" style="min-width: 80px;">
 																	<b>Edit</b>
 																</button>
 															</a>
-														</td>
-														
-														<c:if test="${ listNews.size() > 5 }">
-															<td>
-																<button type="button" class="btn btn-danger btn-fill btn-wd" style="min-width: 74px;"
+															<c:if test="${ listNews.size() > 5 }">
+																<button type="button" class="btn btn-danger btn-fill btn-wd" style="min-width: 80px; margin-top: 3px;"
 																	onclick="return deleteNews(${news.id})">
 																	<b>Delete</b>
 																</button>
-															</td>
-														</c:if>	
+															</c:if>
+														</td>
+													</tr>
+													<tr>
+														<td></td>
+														<th>Content</th>
+														<td colspan="5">${news.content}</td>
 													</tr>
 												</c:forEach>
 											</c:if>

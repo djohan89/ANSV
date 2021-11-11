@@ -13,7 +13,7 @@
 							<div class="row">
 								<div class="col-md-9">
 									<h3 class="title">
-										Admin: <b>Slideshow ${ username }</b>
+										Admin: <b>Slideshow (${listSlideshow.size()})</b>
 									</h3>
 									<p class="category">Quản trị phần trình diễn slide<br>${ statusLogin }</p>
 								</div>

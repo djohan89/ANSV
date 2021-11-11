@@ -57,4 +57,38 @@ public class NewsDao {
 		return jdbcTemplate.query(sql, new NewsMapper());
 	}
 	
+//	Truy vấn 5 bản ghi cùng loại để hiển thị ra màn hình chính của tin tức
+	public List<NewsDto> findLimitByType1() {
+		String sql = "SELECT news.id, news.img, news.title, news.content, news.url, news_type.name AS classify, "
+				+ "news.updated_at, news.updated_by FROM news INNER JOIN news_type ON news.news_type = news_type.id "
+				+ "WHERE news_type.id = 1 "
+				+ "ORDER BY news.id DESC "
+				+ "LIMIT 5";
+		return jdbcTemplate.query(sql, new NewsDtoMapper());
+	}
+	public List<NewsDto> findLimitByType2() {
+		String sql = "SELECT news.id, news.img, news.title, news.content, news.url, news_type.name AS classify, "
+				+ "news.updated_at, news.updated_by FROM news INNER JOIN news_type ON news.news_type = news_type.id "
+				+ "WHERE news_type.id = 2 "
+				+ "ORDER BY news.id DESC "
+				+ "LIMIT 5";
+		return jdbcTemplate.query(sql, new NewsDtoMapper());
+	}
+	public List<NewsDto> findLimitByType3() {
+		String sql = "SELECT news.id, news.img, news.title, news.content, news.url, news_type.name AS classify, "
+				+ "news.updated_at, news.updated_by FROM news INNER JOIN news_type ON news.news_type = news_type.id "
+				+ "WHERE news_type.id = 3 "
+				+ "ORDER BY news.id DESC "
+				+ "LIMIT 5";
+		return jdbcTemplate.query(sql, new NewsDtoMapper());
+	}
+	public List<NewsDto> findLimitByType4() {
+		String sql = "SELECT news.id, news.img, news.title, news.content, news.url, news_type.name AS classify, "
+				+ "news.updated_at, news.updated_by FROM news INNER JOIN news_type ON news.news_type = news_type.id "
+				+ "WHERE news_type.id = 4 "
+				+ "ORDER BY news.id DESC "
+				+ "LIMIT 5";
+		return jdbcTemplate.query(sql, new NewsDtoMapper());
+	}
+	
 }

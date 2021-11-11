@@ -13,7 +13,7 @@
 							<div class="row">
 								<div class="col-md-10">
 									<h3 class="title">
-										Admin: <b>Thông tin nổi bật</b>
+										Admin: <b>Thông tin nổi bật (${listHighlight.size()})</b>
 									</h3>
 								<p class="category">Quản trị mục nổi bật</p>
 								</div>

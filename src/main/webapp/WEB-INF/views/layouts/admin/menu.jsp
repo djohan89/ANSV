@@ -6,8 +6,8 @@
             		Tip 2: you can also add an image using data-image tag	-->
 
 	<div class="logo">
-		<a href="http://www.creative-tim.com" class="simple-text logo-mini">	<b>AD</b>			</a>
-		<a href="http://www.creative-tim.com" class="simple-text logo-normal">	<b>ADMIN - ANSV</b>	</a>
+		<a href="<c:url value="/admin/slideshow/list" />" class="simple-text logo-mini">	<b>AD</b>			</a>
+		<a href="<c:url value="/admin/slideshow/list" />" class="simple-text logo-normal">	<b>ADMIN - ANSV</b>	</a>
 	</div>
 
 	<div class="sidebar-wrapper">

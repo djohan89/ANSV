@@ -335,6 +335,27 @@
 					.title-bold {
 						font-weight: bold !important;
 					}
+					
+					.p-n-title {
+						font-size: 17px;
+					    text-transform: inherit;
+					    overflow: hidden;
+					    text-overflow: ellipsis;
+					    -webkit-box-orient: vertical;
+					    display: -webkit-box;
+					    -webkit-line-clamp: 2;
+					    min-height: 50px;
+					}
+					
+					.p-n-content {
+					    text-transform: inherit;
+					    overflow: hidden;
+					    text-overflow: ellipsis;
+					    -webkit-box-orient: vertical;
+					    display: -webkit-box;
+					    -webkit-line-clamp: 5;
+					    min-height: 50px;
+					}
 				</style>
 
 				<script>
@@ -521,10 +542,12 @@
 															<div class="post-content-child-news">
 																<img src="<c:url value='/assets/user/img/header/ANSV_logo.png' />" class="news-logo">
 																<h1 class="title"></h1>
-																<h2 class="sub_title_2 desc title-bold">
-																	${item_news.title}
+																<h2 class="sub_title_2 title-bold">
+																	<p class="p-n-title">${item_news.title}</p>
 																</h2>
-																<p class="description">${item_news.content}</p>
+																<div class="description">
+																	<p class="p-n-content">${item_news.content}</p>
+																</div>
 																<div class="post-meta" align="right">
 																	<span class="comments"> <a
 																		href="${item_news.url}">Xem thêm...</a>

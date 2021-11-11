@@ -98,6 +98,11 @@ public class HomeController extends WebBaseController {
 	public ModelAndView newsPage() {
 		_mvShare.addObject("news_type", _news_typeService.findAll());
 		_mvShare.addObject("news", _newsService.findAllNews());
+		
+		_mvShare.addObject("news1", _newsService.findLimitByType1());
+		_mvShare.addObject("news2", _newsService.findLimitByType2());
+		_mvShare.addObject("news3", _newsService.findLimitByType3());
+		
 		_mvShare.setViewName("web/news");
 		return _mvShare;
 	}
