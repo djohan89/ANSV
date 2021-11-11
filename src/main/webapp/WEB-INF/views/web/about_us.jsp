@@ -20,7 +20,9 @@
 <body>
 	<script
 		src="<c:url value="/assets/user/vendor/jquery.easing/jquery.easing.min.js" />"></script>
-	<!-- <section id="about-content">
+		
+	 <section id="about-content">
+	 	<div id="particles-js" class="particles-js particles-home-section-2"></div>
 		<div class="container">
 			<div class="row align-self-center text-center">
 				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
@@ -30,11 +32,11 @@
 			</div>
 		</div>
 
-	</section> -->
+	</section> 
 	
 	
 	
-	<section id="home-section-2" class="home-section-2 posr">
+	<!-- <section id="home-section-2" class="home-section-2 posr">
 	    <div id="particles-js" class="particles-js particles-home-section-2"></div>
 	    <div class="container">
 	    	<div class="row align-self-center text-center">
@@ -44,7 +46,7 @@
 
 			</div>
 	    </div>
-	</section>
+	</section> -->
 	
 	
 	
@@ -75,7 +77,7 @@
 							<h2 class="title">Giới thiệu chung</h2>
 							<div class="text-center">
 								<figure class="image">
-									<img alt="" src="<c:url value="/assets/user/img/cong_ty.jpg"/>">
+									<img alt="" src="<c:url value="/assets/user/img/slider/our_company.jpg"/>">
 									<figcaption>
 										Công ty Trách Nhiệm Hữu Hạn Thiết Bị Viễn Thông ANSV |
 										Advanced Network Systems VietNam Company Limited<br> 124

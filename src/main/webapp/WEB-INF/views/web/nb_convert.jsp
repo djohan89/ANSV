@@ -9,17 +9,18 @@
 <title>Chuyển đổi số</title>
 </head>
 <body>
-	<!-- <section id="about-content">
-		<div class="container">
-			<div class="row align-self-center text-center">
+	<section id="about-content">
+		<div id="particles-js" class="particles-js particles-home-section-2"></div>
+	    <div class="container">
+	    	<div class="row align-self-center text-center">
 				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
-					<h2 class="header_text text-uppercase">Chuyển đổi số</h2>
+					<h1 class="text-uppercase header_text">Chuyển đổi số</h1>
 				</div>
 			</div>
-		</div>
-	</section> -->
+	    </div>
+	</section> 
 	
-	<section id="home-section-2" class="home-section-2 posr">
+	<!-- <section id="home-section-2" class="home-section-2 posr">
 	    <div id="particles-js" class="particles-js particles-home-section-2"></div>
 	    <div class="container">
 	    	<div class="row align-self-center text-center">
@@ -28,7 +29,7 @@
 				</div>
 			</div>
 	    </div>
-	</section>
+	</section> -->
 	
 	<section class="nb_informatin">
 		<div class="container">
