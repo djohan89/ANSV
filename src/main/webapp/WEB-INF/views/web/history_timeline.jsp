@@ -16,20 +16,8 @@
 </style>
 </head>
 <body>
-	<!-- <section id="about-content">
-		<div class="container">
-			<div class="row align-self-center text-center">
-				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
-					<div class="text-uppercase header_text">
-						<font size="+3"> Lịch sử hình thành và phát triển </font>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	
-	<section id="home-section-2" class="home-section-2 posr">
-	    <div id="particles-js" class="particles-js particles-home-section-2"></div>
+	<section id="about-content">
+		<div id="particles-js" class="particles-js particles-home-section-2"></div>
 	    <div class="container">
 	    	<div class="row align-self-center text-center">
 				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
@@ -40,6 +28,19 @@
 			</div>
 	    </div>
 	</section>
+	
+	<!-- <section id="home-section-2" class="home-section-2 posr">
+	    <div id="particles-js" class="particles-js particles-home-section-2"></div>
+	    <div class="container">
+	    	<div class="row align-self-center text-center">
+				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
+					<div class="text-uppercase header_text" style="padding-top: 5%;">
+						<font size="+3">Lịch sử hình thành và phát triển</font>
+					</div>
+				</div>
+			</div>
+	    </div>
+	</section> -->
 	
 	<section id="about-section" data-spy="scroll"
 		data-target="#myScrollspy" data-offset="20">

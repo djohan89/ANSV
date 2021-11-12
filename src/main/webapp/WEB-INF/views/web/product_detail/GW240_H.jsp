@@ -74,6 +74,7 @@ img.xzoom:hover {
 }
 </style>
 	<section id="about-content">
+		<div id="particles-js" class="particles-js particles-home-section-2"></div>
 		<div class="container">
 			<div class="row align-self-center text-center">
 				<div class="col-md-10 offset-md-2 text-center breadcrumb-info">
