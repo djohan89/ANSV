@@ -38,10 +38,20 @@
 								</div>
 							</div>
 						</div>
-						<div class="content"><hr style="margin-top: 0; margin-bottom: 1%;">
+						<div class="content"><hr style="margin-top: 0; margin-bottom: -1%;">
 							<div class="row">
 								<div class="col-md-1"></div>
 								<div class="col-md-10">
+								
+									<div class="row news_pt">
+										<div class="col-md-12" style="font-size: 20px;">
+											<b>
+												Phân loại:
+												<font color="#FF6600"><i>${ newDetails.classify }</i></font>
+											</b>
+											<hr style="margin-top: 1%; margin-bottom: -1%; height: 2px; background-color: black;">
+										</div>
+									</div>
 									
 									<div class="row">
 										<div class="col-md-12">
@@ -63,15 +73,21 @@
 									
 									<div class="row news_pt">
 										<div class="col-md-12">
-											${ newDetails.content }
+											${ newDetails.content }<hr>
 										</div>
 									</div>
 									
 									<div class="row news_pt">
-										<div class="col-md-8"></div>
+										<div class="col-md-8">
+											<b>Link: </b><i>${ newDetails.url }</i>
+										</div>
 										<div class="col-md-2" style="display: flex; justify-content: flex-end">Người đăng:</div>
 										<div class="col-md-2">
-											<i>${ newDetails.updated_by }<br>${ newDetails.updated_at }</i>
+											<i>
+												${ newDetails.updated_by }
+												<hr style="margin: 0;">
+												${ newDetails.updated_at }
+											</i>
 										</div>
 									</div>
 									
