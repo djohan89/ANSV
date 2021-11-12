@@ -71,7 +71,7 @@
 											<h2 class="p-n-title">
 												<a href="#">${item_news1.title}</a>
 											</h2>
-											<p class="p-n-desc justify">${item_news1.content}</p>
+											<div class="p-n-desc justify">${item_news1.summary}</div>
 											<a class="p-n-read-more" href="#">
 												Xem thêm <i class="ti ti-arrow-right"></i>
 											</a>
@@ -98,7 +98,7 @@
 											<h2 class="p-n-title">
 												<a href="#">${item_news2.title}</a>
 											</h2>
-											<p class="p-n-desc justify">${item_news2.content}</p>
+											<div class="p-n-desc justify">${item_news2.summary}</div>
 											<a class="p-n-read-more" href="#">
 												Xem thêm <i class="ti ti-arrow-right"></i>
 											</a>
@@ -125,7 +125,7 @@
 											<h2 class="p-n-title">
 												<a href="#">${item_news3.title}</a>
 											</h2>
-											<p class="p-n-desc justify">${item_news3.content}</p>
+											<div class="p-n-desc justify">${item_news3.summary}</div>
 											<a class="p-n-read-more" href="#">
 												Xem thêm <i class="ti ti-arrow-right"></i>
 											</a>
@@ -152,7 +152,7 @@
 												<h2 class="p-n-title">
 													<a href="#">${item_news1.title}</a>
 												</h2>
-												<p class="p-n-desc justify">${item_news1.content}</p>
+												<div class="p-n-desc justify">${item_news1.summary}</div>
 											</div>
 										</div>
 									</c:if>
@@ -173,7 +173,7 @@
 												<h2 class="p-n-title">
 													<a href="#">${item_news2.title}</a>
 												</h2>
-												<p class="p-n-desc justify">${item_news2.content}</p>
+												<p class="p-n-desc justify">${item_news2.summary}</p>
 											</div>
 										</div>
 									</c:if>
@@ -194,7 +194,7 @@
 												<h2 class="p-n-title">
 													<a href="#">${item_news3.title}</a>
 												</h2>
-												<p class="p-n-desc justify">${item_news3.content}</p>
+												<div class="p-n-desc justify">${item_news3.summary}</div>
 											</div>
 										</div>
 									</c:if>

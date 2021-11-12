@@ -19,6 +19,10 @@ public class NewsService {
 		return newsDao.findAll();
 	}
 	
+	public NewsDto findByID(int id) {
+		return newsDao.findByID(id);
+	}
+	
 	public List<NewsDto> findAllNews() {
 		return newsDao.findAllNews();
 	}

@@ -543,10 +543,10 @@
 																<img src="<c:url value='/assets/user/img/header/ANSV_logo.png' />" class="news-logo">
 																<h1 class="title"></h1>
 																<h2 class="sub_title_2 title-bold">
-																	<p class="p-n-title">${item_news.title}</p>
+																	<div class="p-n-title">${item_news.title}</div>
 																</h2>
 																<div class="description">
-																	<p class="p-n-content">${item_news.content}</p>
+																	<div class="p-n-content">${item_news.summary}</div>
 																</div>
 																<div class="post-meta" align="right">
 																	<span class="comments"> <a

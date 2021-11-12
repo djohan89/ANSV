@@ -7,6 +7,7 @@ public class News {
 	private int id;
 	private String img;
 	private String title;
+	private String summary;
 	private String content;
 	private String url;
 	private int news_type;
@@ -19,9 +20,10 @@ public class News {
 	
 	
 	
-	public News(String img, String title, String content, String url, int news_type, Date updated_at, String updated_by) {
+	public News(String img, String title, String summary, String content, String url, int news_type, Date updated_at, String updated_by) {
 		this.img = img;
 		this.title = title;
+		this.summary = summary;
 		this.content = content;
 		this.url = url;
 		this.news_type = news_type;
@@ -29,10 +31,11 @@ public class News {
 		this.updated_by = updated_by;
 	}
 	
-	public News(int id, String img, String title, String content, String url, int news_type, Date updated_at, String updated_by) {
+	public News(int id, String img, String title, String summary, String content, String url, int news_type, Date updated_at, String updated_by) {
 		this.id = id;
 		this.img = img;
 		this.title = title;
+		this.summary = summary;
 		this.content = content;
 		this.url = url;
 		this.news_type = news_type;
@@ -42,7 +45,7 @@ public class News {
 
 	@Override
 	public String toString() {
-		return "News [id=" + id + ", img=" + img + ", title=" + title + ", content=" + content + ", url=" + url + ", news_type=" + news_type + ", updated_at=" + updated_at + ", updated_by=" + updated_by + "]";
+		return "News [id=" + id + ", img=" + img + ", title=" + title + ", summary=" + summary + ", content=" + content + ", url=" + url + ", news_type=" + news_type + ", updated_at=" + updated_at + ", updated_by=" + updated_by + "]";
 	}
 
 
@@ -69,6 +72,14 @@ public class News {
 
 	public void setTitle(String title) {
 		this.title = title;
+	}
+
+	public String getSummary() {
+		return summary;
+	}
+
+	public void setSummary(String summary) {
+		this.summary = summary;
 	}
 
 	public String getContent() {
@@ -110,5 +121,7 @@ public class News {
 	public void setUpdated_by(String updated_by) {
 		this.updated_by = updated_by;
 	}
+
+
 	
 }

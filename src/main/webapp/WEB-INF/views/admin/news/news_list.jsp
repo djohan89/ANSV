@@ -18,6 +18,7 @@
 								<p class="category">Quản trị mục tin tức</p>
 								</div>
 								<div class="col-md-3">
+									<c:url value="/admin/news/details" var="urlDetails" />
 									<c:url value="/admin/news/save" var="urlSave" />
 									<c:url value="/admin/news/update" var="urlUpdate" />
 									<c:url value="/admin/newsDelete" var="urlDelete" />
@@ -51,9 +52,13 @@
 													<tr style="border: 1px black solid">
 														<td>${ news.id }</td>
 														<td>
-															<img src="<c:url value='/assets/user/img/news/${news.img}' />" width="150px" />
+															<a href="${urlDetails}/${news.id}">
+																<img src="<c:url value='/assets/user/img/news/${news.img}' />" width="150px" />
+															</a>
 														</td>
-														<td>${news.title}</td>
+														<td>
+															<a href="${urlDetails}/${news.id}">${news.title}</a>
+														</td>
 														<td>${news.url}</td>
 														<td>
 															${news.classify}
@@ -75,11 +80,6 @@
 																</button>
 															</c:if>
 														</td>
-													</tr>
-													<tr>
-														<td></td>
-														<th>Content</th>
-														<td colspan="5">${news.content}</td>
 													</tr>
 												</c:forEach>
 											</c:if>

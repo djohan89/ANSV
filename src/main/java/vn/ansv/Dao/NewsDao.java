@@ -21,8 +21,8 @@ public class NewsDao {
 	private LocalDateTime _now = LocalDateTime.now();  
 	
 	public void save(News news) {
-		String sql = "INSERT INTO news (img, title, content, url, news_type, updated_at, updated_by) VALUES (?, ?, ?, ?, ?, ?, ?)";
-		jdbcTemplate.update(sql, news.getImg(), news.getTitle(), news.getContent(), news.getUrl(), news.getNews_type(), _now, news.getUpdated_by());
+		String sql = "INSERT INTO news (img, title, summary, content, url, news_type, updated_at, updated_by) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+		jdbcTemplate.update(sql, news.getImg(), news.getTitle(), news.getSummary(), news.getContent(), news.getUrl(), news.getNews_type(), _now, news.getUpdated_by());
 	}
 
 	public void delete(int id) {
@@ -31,8 +31,8 @@ public class NewsDao {
 	}
 	
 	public void update(News news) {
-		String sql = "UPDATE news SET img = ?, title = ?, content = ?, url = ?, news_type = ?, updated_at = ?, updated_by = ? WHERE id = ? ";
-		jdbcTemplate.update(sql, news.getImg(), news.getTitle(), news.getContent(), news.getUrl(), news.getNews_type(), _now, news.getUpdated_by(), news.getId());
+		String sql = "UPDATE news SET img = ?, title = ?, summary = ?, content = ?, url = ?, news_type = ?, updated_at = ?, updated_by = ? WHERE id = ? ";
+		jdbcTemplate.update(sql, news.getImg(), news.getTitle(), news.getSummary(), news.getContent(), news.getUrl(), news.getNews_type(), _now, news.getUpdated_by(), news.getId());
 	}
 
 	public News findById(int id) {
@@ -46,10 +46,17 @@ public class NewsDao {
 	}
 	
 	public List<NewsDto> findAllNews() {
-		String sql = "SELECT news.id, news.img, news.title, news.content, news.url, news_type.name AS classify, "
+		String sql = "SELECT news.id, news.img, news.title, news.summary, news.content, news.url, news_type.name AS classify, "
 					+ "news.updated_at, news.updated_by FROM news INNER JOIN news_type ON news.news_type = news_type.id "
 					+ "ORDER BY news.id DESC";
 		return jdbcTemplate.query(sql, new NewsDtoMapper());
+	}
+	
+	public NewsDto findByID(int id) {
+		String sql = "SELECT news.id, news.img, news.title, news.summary, news.content, news.url, news_type.name AS classify, "
+				+ "news.updated_at, news.updated_by FROM news INNER JOIN news_type ON news.news_type = news_type.id "
+				+ "WHERE news.id = ?";
+		return jdbcTemplate.queryForObject(sql, new NewsDtoMapper(), id);
 	}
 	
 	public List<News> findLimit() {
@@ -59,7 +66,7 @@ public class NewsDao {
 	
 //	Truy vấn 5 bản ghi cùng loại để hiển thị ra màn hình chính của tin tức
 	public List<NewsDto> findLimitByType1() {
-		String sql = "SELECT news.id, news.img, news.title, news.content, news.url, news_type.name AS classify, "
+		String sql = "SELECT news.id, news.img, news.title, news.summary, news.content, news.url, news_type.name AS classify, "
 				+ "news.updated_at, news.updated_by FROM news INNER JOIN news_type ON news.news_type = news_type.id "
 				+ "WHERE news_type.id = 1 "
 				+ "ORDER BY news.id DESC "
@@ -67,7 +74,7 @@ public class NewsDao {
 		return jdbcTemplate.query(sql, new NewsDtoMapper());
 	}
 	public List<NewsDto> findLimitByType2() {
-		String sql = "SELECT news.id, news.img, news.title, news.content, news.url, news_type.name AS classify, "
+		String sql = "SELECT news.id, news.img, news.title, news.summary, news.content, news.url, news_type.name AS classify, "
 				+ "news.updated_at, news.updated_by FROM news INNER JOIN news_type ON news.news_type = news_type.id "
 				+ "WHERE news_type.id = 2 "
 				+ "ORDER BY news.id DESC "
@@ -75,7 +82,7 @@ public class NewsDao {
 		return jdbcTemplate.query(sql, new NewsDtoMapper());
 	}
 	public List<NewsDto> findLimitByType3() {
-		String sql = "SELECT news.id, news.img, news.title, news.content, news.url, news_type.name AS classify, "
+		String sql = "SELECT news.id, news.img, news.title, news.summary, news.content, news.url, news_type.name AS classify, "
 				+ "news.updated_at, news.updated_by FROM news INNER JOIN news_type ON news.news_type = news_type.id "
 				+ "WHERE news_type.id = 3 "
 				+ "ORDER BY news.id DESC "
@@ -83,7 +90,7 @@ public class NewsDao {
 		return jdbcTemplate.query(sql, new NewsDtoMapper());
 	}
 	public List<NewsDto> findLimitByType4() {
-		String sql = "SELECT news.id, news.img, news.title, news.content, news.url, news_type.name AS classify, "
+		String sql = "SELECT news.id, news.img, news.title, news.summary, news.content, news.url, news_type.name AS classify, "
 				+ "news.updated_at, news.updated_by FROM news INNER JOIN news_type ON news.news_type = news_type.id "
 				+ "WHERE news_type.id = 4 "
 				+ "ORDER BY news.id DESC "

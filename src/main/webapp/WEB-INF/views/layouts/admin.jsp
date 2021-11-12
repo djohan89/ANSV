@@ -42,6 +42,10 @@
 <!-- Jquery -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
 
+<!-- ===== ckeditor ===== -->
+<script src="<c:url value='/assets/ckeditor/ckeditor.js' />"></script>
+<script src="<c:url value='/assets/ckeditor/adapters/jquery.js' />"></script>
+
 <style type="text/css">
 	.select2-container .select2-selection--single {
 		height: 34px;
@@ -88,6 +92,13 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 	    $('#select2').select2();
+	    
+	    $(function() {
+			$("#content").ckeditor({
+				toolbar : 'Basic',
+				uiColor : '#F7D358'
+			});
+		}); 
 	});
 	
 	function validate_form() {

@@ -2427,7 +2427,7 @@ section {
 
 .post-news-no-img .post-news .p-n-desc {
     -webkit-line-clamp: 2;
-    min-height: 45px;
+    min-height: 40px;
 }
 
 .detail-news {

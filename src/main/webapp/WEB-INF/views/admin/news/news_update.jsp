@@ -33,55 +33,48 @@
 									<c:url value="/admin/updateNews?${_csrf.parameterName}=${_csrf.token}" var="updateNews" />
 									<form:form action="${updateNews}" method="POST" modelAttribute="news" enctype="multipart/form-data">
 									
-										<div class="col-md-8" style="padding-top: 1%;">
-											<table class="table table-striped">
+										<div class="col-md-8">
+											<table class="table">
 												<tr>
-													<td width="18%">Mã: </td>
-													<td><form:input path="id" class="form-control" readonly="true" required="required" /></td>
-												</tr>
-												<tr>
-													<td>Hình ảnh: </td>
-													<td><form:input path="img" class="form-control" id="img_name" readonly="true" required="required" /></td>
-												</tr>
-												<tr>
-													<td>Title: </td>
-													<td><form:input path="title" class="form-control" required="required" /></td>
-												</tr>
-												<tr>
-													<td>Content: </td>
-													<td>
-														<form:textarea path="content" class="form-control" rows="5" required="required"></form:textarea>
+													<td class="pt-4" colspan="2">
+														<form:textarea path="title" class="form-control" rows="4" id="news_title" required="required"></form:textarea>
 													</td>
 												</tr>
 												<tr>
-													<td>Url: </td>
-													<td><form:input path="url" class="form-control" required="required" /></td>
+													<td colspan="2">
+														<form:textarea path="summary" class="form-control" rows="4" id="news_summary" required="required"></form:textarea>
+													</td>
 												</tr>
 												<tr>
-													<td>Classify: </td>
 													<td>
 														<form:select path="news_type" class="form-control" id="select2">
 													    	<form:option value="0">Loại tin tức...</form:option>
 													    	<c:forEach var="item" items="${ listNews_type }" varStatus="index">
 													    		<form:option value="${item.id}">${item.name}</form:option>
 													    	</c:forEach>
-													    	<%-- <form:options items="${listNews_type}"></form:options> --%>
 													  	</form:select>
 													</td>
+													<td style="width: 50%">
+														<form:input path="url" class="form-control" placeholder="Link đến bài viết chi tiết..." required="required" />
+													</td>
 												</tr>
-												<tr>
-													<td>Updated by: </td>
-													<td><form:input path="updated_by" value="${username}" class="form-control" readonly="true" required="required" /></td>
-												</tr>
-												<!-- <tr style="background-color: white;">
-													<td></td>
-													<td><button type="submit" class="btn btn-warning btn-fill" style="width: 20%; font-weight: bold; font-size: 18px;">Update</button></td>
-												</tr> -->
-											</table><br>
-											<a href="javascript:void(0)" onclick="history.go(-1);">Previous page</a>
+											</table>
 										</div>
 										
 										<div class="col-md-4">
+										
+											<div class="row">
+												<div class="col-md-3" style="padding-top: 6px;">
+													Mã bài viết:
+												</div>
+												<div class="col-md-9">
+													<form:input path="id" class="form-control" readonly="true" required="required" />
+												</div>
+											</div>
+										
+											<form:input type="hidden" path="updated_by" value="${ username }" class="form-control" readonly="true" required="required" />
+											<form:input path="img" class="form-control" id="img_name" placeholder="Hình ảnh..." readonly="true" required="required" />
+										
 											<div class="container-upload-file center">
 												<div class="row">
 													<div class="col-md-12">
@@ -126,6 +119,13 @@
 											</div>
 										</div>
 										
+										<div class="row" style="padding: 0 6px 0 23px;">
+											<div class="col-md-12">
+												<br><br>
+												<form:textarea path="content" class="form-control" rows="10" id="news_content" required="required"></form:textarea>
+											</div>
+										</div>
+										
 									</form:form>
 								</div>
 							</div>
@@ -136,9 +136,9 @@
 		</div>
 	</div>
 	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	
 	<script src="<c:url value="/assets/admin/js/admin_upload_file.js" />"></script>
+	
+	<script src="<c:url value='/assets/ckeditor/handmade-ckeditor.js' />"></script>
 	
 </body>

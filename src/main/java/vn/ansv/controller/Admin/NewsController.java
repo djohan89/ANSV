@@ -47,6 +47,14 @@ public class NewsController {
 		
 	}
 	
+	@RequestMapping("/news/details/{id}")
+	public String newsDetail(@PathVariable int id, Model model) {
+		
+		model.addAttribute("newDetails", newsService.findByID(id));
+		return "admin/news/news_details";
+		
+	}
+	
 	@RequestMapping("/news/save")
 	public String insertNews(Model model, HttpServletRequest request) {
 		
@@ -167,7 +175,7 @@ public class NewsController {
 	
 	
 // Đầu: Test insert tin tức kết hợp upload hình ảnh
-//	@RequestMapping("/admin/news-save-test")
+//	@RequestMapping("/news/save-test")
 //	public String insertNewsTest(Model model, HttpServletRequest request) {
 //		
 //		String userName = "not logged in"; // Any default user  name
@@ -177,11 +185,12 @@ public class NewsController {
 //	    }
 //	    
 //	    model.addAttribute("username", userName);
+//	    model.addAttribute("listNews_type", news_typeService.findAll());
 //		model.addAttribute("news", new News());
-//		return "admin/news/news_save_test";
+//		return "admin/news/news_save_test_2";
 //	}
 //	
-//	@RequestMapping("/admin/saveNewsTest")
+//	@RequestMapping("/saveNewsTest")
 //	public String doSaveNewsTest(@RequestParam("fileup") CommonsMultipartFile file, @ModelAttribute("News") News news, HttpSession s, Model model) {
 //		
 //		System.out.println("File upload handler");
@@ -192,8 +201,7 @@ public class NewsController {
 //		System.out.println(file.getStorageDescription());
 //		byte[] data = file.getBytes();
 //		//we have to save this file to server...
-//		String path = s.getServletContext().getRealPath("/") + "assets" + File.separator + "user" 
-//				+ File.separator + "upload" + File.separator + file.getOriginalFilename();
+//		String path = s.getServletContext().getRealPath("/") + "assets" + File.separator + "user" + File.separator + "img" + File.separator + "news" + File.separator + file.getOriginalFilename();
 //		System.out.println(path);
 //		
 //		try {
@@ -215,10 +223,11 @@ public class NewsController {
 //			model.addAttribute("msg", "Uploading error!!!");
 //		}
 //		
+//		// Insert data into database
 //		newsService.save(news);
 //		model.addAttribute("listNews", newsService.findAll());
 //
-//		return "redirect:/admin/news-list";
+//		return "redirect:/admin/news/list";
 //	}
 // Cuối: Test insert tin tức kết hợp upload hình ảnh
 	
