@@ -99,7 +99,7 @@
 
 							<div id="timeline"
 								style="	background: blue; 
-										background-image: url('<c:url value="/assets/user/img//bg/background-timeline.jpg" />');
+										background-image: url('<c:url value="/assets/user/img/bg/background-timeline.jpg" />');
 										background-position: right top; 
 										margin-top: 20px; 
 										border: 1px solid; 
