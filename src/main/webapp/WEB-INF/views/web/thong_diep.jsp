@@ -85,8 +85,8 @@
 									<br>
 									<p  class="font-italic justify">Lời đầu tiên
 										tôi xin thay mặt toàn thể cán bộ công nhân viên của công ty
-										TNHH Thiết bị viễn thông ANSV xin gửi đến Quý khách hàng,Quý
-										đối tác lời chào cùng lời chi ân sâu sắc nhất. Nhận được sự
+										TNHH Thiết bị viễn thông ANSV xin gửi đến Quý khách hàng, Quý
+										đối tác lời chào cùng lời tri ân sâu sắc nhất. Nhận được sự
 										tin tưởng và đồng hành của Quý vị vừa là niềm vinh dự vừa là
 										động lực để chúng tôi tiếp tục nỗ lực, sáng tạo để tự hào khi
 										luôn thấu hiểu được nhu cầu và đáp ứng được mong muốn của
@@ -95,7 +95,7 @@
 									<p  class="font-italic justify">Để thích ứng
 										kịp thời với bước chuyển mình mạnh mẽ của công nghệ và với
 										tham vọng sẽ trở thành công ty hàng đầu trong lĩnh vực chuyển
-										đổi số(Disital Transformation), tích hợp hệ thống(System
+										đổi số (Digital Transformation), tích hợp hệ thống (System
 										Intergration - ST), chúng tôi đã, đang làm việc và cộng tác
 										với nhiều đối tác, nhà cung cấp hàng đầu trên thế giới để tập
 										trung cung cấp và khai thác các dịch vụ, giải pháp về Công
@@ -106,13 +106,13 @@
 										mà ANSV có thể tự hào ngày hôm nay là thành quả trong suốt 28
 										năm hình thành và phát triển, là sự phấn đấu không ngừng của
 										một đơn vị đoàn kết, sáng tạo, là sự đồng lòng của tập thể
-										lãnh đạo các thời kỳ, là ự nhiệt huyết tận tâm của tập thể các
+										lãnh đạo các thời kỳ, là sự nhiệt huyết tận tâm của tập thể các
 										cán bộ công nhân viên và người lao động trong công ty. Đây là
 										những thành tựu giúp chúng tôi vững tin bước vào thập kỷ phát
 										triển mới.</p>
 									<br>
 									<p  class="font-italic justify">Với sự đổi
-										mới trong cách nghĩ, cách làm, đam mê, và không ngừng sáng
+										mới trong cách nghĩ, cách làm, đam mê và không ngừng sáng
 										tạo, chúng tôi tin tưởng ANSV sẽ có những bước tiến thần tốc,
 										đón đầu các xu hướng công nghệ giúp kiến tạo và thay đổi cuộc
 										sống.</p>

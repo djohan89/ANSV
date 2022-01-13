@@ -724,8 +724,7 @@
 										<span> 
 											"Văn hóa là tinh thần - Sức mạnh Team work" luôn được đề cao và 
 											là văn hóa cốt lõi của Doanh nghiệp, tạo nên tinh thần 
-											<font color="#FF6600"><b>ANSV</b></font>
-											, giúp chúng tôi không ngừng nỗ lực , sáng tạo vì lợi ích chung 
+											<font color="#FF6600"><b>ANSV</b></font>, giúp chúng tôi không ngừng nỗ lực , sáng tạo vì lợi ích chung 
 											của tập thể, của khách hàng và của xã hội.
 										</span></br><br>
 										<span>
