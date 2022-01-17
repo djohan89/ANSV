@@ -18,17 +18,17 @@
 <body>
 	<section id="about-content">
 		<div id="particles-js" class="particles-js particles-home-section-2"></div>
-	    <div class="container">
-	    	<div class="row align-self-center text-center">
+		<div class="container">
+			<div class="row align-self-center text-center">
 				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
 					<div class="text-uppercase header_text" style="padding-top: 5%;">
 						<font size="+3">Lịch sử hình thành và phát triển</font>
 					</div>
 				</div>
 			</div>
-	    </div>
+		</div>
 	</section>
-	
+
 	<!-- <section id="home-section-2" class="home-section-2 posr">
 	    <div id="particles-js" class="particles-js particles-home-section-2"></div>
 	    <div class="container">
@@ -41,7 +41,7 @@
 			</div>
 	    </div>
 	</section> -->
-	
+
 	<section id="about-section" data-spy="scroll"
 		data-target="#myScrollspy" data-offset="20">
 		<div class="container">
@@ -71,12 +71,10 @@
 								<figure class="image">
 									<img alt=""
 										src="<c:url value="/assets/user/img/lich_su.jpg" />">
-									<figcaption>Sơ đồ tổ phát triển</figcaption>
+									<figcaption>Sơ đồ phát triển</figcaption>
 								</figure>
 							</div>
-							<br>
-							<br>
-							<br>
+							<br> <br> <br>
 							<p align="left">
 								<font size="+3"> <strong>Các mốc phát triển</strong>
 								</font>
@@ -91,10 +89,10 @@
 
 							<script>
 								var timeline_history = $("#timeline").timelinr(
-									{
-										autoPlay : 'true',
-										autoPlayDirection : 'forward'
-									});
+										{
+											autoPlay : 'true',
+											autoPlayDirection : 'forward'
+										});
 							</script>
 
 							<div id="timeline"
@@ -150,11 +148,11 @@
 										</div>
 										<h1>2019</h1>
 										<p>
-											► Ký thỏa thuận Hợp tác với Nokia Group.<br> <br> ►
+											► Ký thỏa thuận hợp tác với Nokia Group.<br> <br> ►
 											Triển khai hệ thống Backhaul cho khu vực miền Trung và miền
 											Nam.<br> <br> ► Hoàn thiện triển khai mạng truy
 											nhập quang thụ động trên toàn quốc.<br> <br> ► Mở
-											rộng hệ thống truyền dẫn khu vực Miền trung và tuyến trục
+											rộng hệ thống truyền dẫn khu vực miền Trung và tuyến trục
 											Backbone cho Tổng Công ty Hạ tầng mạng.
 										</p>
 									</li>
@@ -167,11 +165,11 @@
 										</div>
 										<h1>2017</h1>
 										<p>
-											► Vượt ngưỡng Doanh thu 130tr $.<br> <br> ► Triển
-											khai thiết kế, cung cấp và lắp đặt hệ thống truyền dẫn khu
-											vực Miền trung và Mở rộng tuyến trục Backbone cho Tổng Công
-											ty Hạ tầng mạng.<br> <br> ► Cung cấp và triển khai
-											mở rộng mạng truyền dẫn DWDM miền Nam cho Mobifone.<br>
+											► Vượt ngưỡng doanh thu 130 triệu USD.<br> <br> ►
+											Triển khai thiết kế, cung cấp và lắp đặt hệ thống truyền dẫn
+											khu vực miền Trung và mở rộng tuyến trục Backbone cho Tổng
+											Công ty Hạ tầng mạng.<br> <br> ► Cung cấp và triển
+											khai mở rộng mạng truyền dẫn DWDM miền Nam cho Mobifone.<br>
 											<br> ► Cung cấp 2 triệu sản phẩm đầu cuối ONT/STB/Modem
 											ADSL.<br> <br> ► Cung cấp và triển khai thiết bị
 											SmallCell cho mạng di động.<br> <br> ► 5 triệu USD
@@ -188,9 +186,9 @@
 										</div>
 										<h1>2016</h1>
 										<p>
-											► Vượt ngưỡng Doanh thu 100tr $.<br> <br> ► Triển
-											khai hệ thống GPON cho 51 tỉnh thành phố, trở thành đơn vị
-											triển khai hệ thống mạng quang thụ động lớn nhất cho VNPT.<br>
+											► Vượt ngưỡng doanh thu 100 triệu USD.<br> <br> ►
+											Triển khai hệ thống GPON cho 51 tỉnh thành phố, trở thành đơn
+											vị triển khai hệ thống mạng quang thụ động lớn nhất cho VNPT.<br>
 											<br> ► Cung cấp 2 triệu sản phẩm đầu cuối ONT/STB/Modem
 											ADSL.<br> <br> ► Cung cấp và triển khai mạng truyền
 											dẫn DWDM miền Nam cho Mobifone.
@@ -205,8 +203,8 @@
 										</div>
 										<h1>2015</h1>
 										<p>
-											► Cán mốc Doanh thu 50tr $.<br> <br> ► Hệ thống
-											Collection cho công ty tài chính Home Credit Việt Nam.<br>
+											► Cán mốc doanh thu 50 triệu USD.<br> <br> ► Hệ
+											thống Collection cho công ty tài chính Home Credit Việt Nam.<br>
 											<br> ► Triển khai hệ thống giao thông thông minh.
 										</p>
 									</li>
@@ -219,11 +217,11 @@
 										</div>
 										<h1>2014</h1>
 										<p>
-											► Triển khai Dự án backbone đường trục (11tr $) cho Tổng Công
-											ty Hạ tầng Mạng<br> <br> ► Cung cấp hệ thống mạng
-											và tổng đài IP cho dự án xây dựng Nhà Quốc hội.<br> <br>
-											► Cung cấp và triển khai hệ thống IP Contact Center cho Công
-											ty Tài chính Home Credit.
+											► Triển khai Dự án backbone đường trục (11 triệu USD) cho
+											Tổng Công ty Hạ tầng Mạng<br> <br> ► Cung cấp hệ
+											thống mạng và tổng đài IP cho dự án xây dựng Nhà Quốc hội.<br>
+											<br> ► Cung cấp và triển khai hệ thống IP Contact Center
+											cho Công ty Tài chính Home Credit.
 										</p>
 									</li>
 
@@ -236,7 +234,7 @@
 										<h1>2012</h1>
 										<p>
 											► Triển khai hệ thống IP CONTACT CENTER khu vực phía Bắc và
-											khu vực Miền Trung.<br> <br> ► Dịch vụ Hỗ trợ kỹ
+											khu vực miền Trung.<br> <br> ► Dịch vụ Hỗ trợ kỹ
 											thuật cho mạng di động Vinaphone, thiết bị của Alcatel-Lucent
 										</p>
 									</li>
@@ -254,9 +252,9 @@
 											<br> ► Phân phối các thiết bị đầu cuối của VNPT
 											Technology sản xuất (Set top Box/ Smart Box, ONT, Modem, Wifi
 											Mesh,…) khắp cả nước.<br> <br> ► Trở thành Reseller
-											của Alcatel – Lucent tại Vietnam, dấu ấn đầu tiên là việc
+											của Alcatel – Lucent tại Việt Nam, dấu ấn đầu tiên là việc
 											thắng thầu dự án cung cấp thiết bị, giải pháp, mạng truy cập
-											cáp quang FTTx cho VNPT Hồ Chí Minh (đạt giá trị Ký kết trên
+											cáp quang FTTx cho VNPT Hồ Chí Minh (đạt giá trị ký kết trên
 											2 triệu USD trong năm 2011), mở đầu thành công cho việc cung
 											cấp giải pháp, thiết bị và dịch vụ triển khai hệ thống GPON
 											rộng khắp cả nước.<br> <br> ► Cung cấp và Triển
@@ -277,7 +275,7 @@
 											Thơ _ Cung cấp 1150 thiết bị L2 Switch + 18.539 cổng quang
 											cho dự án AON của VNPT.<br> <br> ► Thiết lập thành
 											công hệ thống mạng chuyển mạch Thế hệ mới (NGN Call control
-											System) cho Tập đoàn VNPT với giá trị 10M USD
+											System) cho Tập đoàn VNPT với giá trị 10 triệu USD.
 										</p>
 									</li>
 
@@ -306,17 +304,16 @@
 										</div>
 										<h1>2007</h1>
 										<p>
-											► Cung cấp các thiết bị IP Networking Router/ IP – MPLS, Ethernet Switch, 
-											Enterprise Switch, Firewall,…<br><br>
-											► Xây dựng giải pháp và thiết kế mạng IP.<br><br>
+											► Cung cấp các thiết bị IP Networking Router/ IP – MPLS,
+											Ethernet Switch, Enterprise Switch, Firewall,…<br> <br>
+											► Xây dựng giải pháp và thiết kế mạng IP.<br> <br>
 											► Lắp ráp và tích hợp hệ thống nguồn vào rack của tổng đài
-											IP.<br><br>
-											► Tham gia xây dựng giải pháp và thực
+											IP.<br> <br> ► Tham gia xây dựng giải pháp và thực
 											hiện các dự án IPCC cho viễn thông Hà Nội và Đà Nẵng.<br>
-											<br>
-											► Triển khai thành công các dự án cung cấp thiết bị truy nhập MSAN trên 
-											mạng lưới VNPT toàn quốc, giá trị 30 triệu USD.<br><br>
-											► Xây dựng hệ thống mạng truy cập băng rộng xDSL với 1 triệu thuê bao.
+											<br> ► Triển khai thành công các dự án cung cấp thiết bị
+											truy nhập MSAN trên mạng lưới VNPT toàn quốc, giá trị 30
+											triệu USD.<br> <br> ► Xây dựng hệ thống mạng truy
+											cập băng rộng xDSL với 1 triệu thuê bao.
 										</p>
 									</li>
 
@@ -326,11 +323,11 @@
 												width="256" height="256" />
 										</div>
 										<h1>2003</h1>
-										<p>Cung cấp hệ thống mạng truy cập cố định DSLAM/MSAN Ký
+										<p>Cung cấp hệ thống mạng truy cập cố định DSLAM/MSAN ký
 											thỏa thuận chuyển giao công nghệ với Alcaltel Tây Ban Nha,
 											trở thành đơn vị sản xuất thiết bị MSAN 1540 Litespan, CKD
-											các card và sửa chữa các thiết bị MSANBước đầu cung cấp thiết
-											bị mạng di động cho Viettel dưới hình thức triển khai
+											các card và sửa chữa các thiết bị MSAN bước đầu cung cấp
+											thiết bị mạng di động cho Viettel dưới hình thức triển khai
 											full-turnkey.</p>
 									</li>
 
@@ -382,7 +379,8 @@
 
 									<li id="1994">
 										<div style="height: 100%; float: left;">
-											<img src="<c:url value="/assets/user/img/timeline/1994.png" />"
+											<img
+												src="<c:url value="/assets/user/img/timeline/1994.png" />"
 												width="256" height="256" />
 										</div>
 										<h1>1994</h1>
@@ -393,7 +391,8 @@
 
 									<li id="1993">
 										<div style="height: 100%; float: left;">
-											<img src="<c:url value="/assets/user/img/timeline/1993.png" />"
+											<img
+												src="<c:url value="/assets/user/img/timeline/1993.png" />"
 												width="256" height="256" />
 										</div>
 										<h1>1993</h1>
@@ -415,23 +414,25 @@
 		</div>
 	</section>
 	<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				  var $banner = $('.banner'), $window = $(window);
-				  var $topDefault = parseFloat( $banner.css('top'), 10 );
-				  $window.on('scroll', function() {
-				    var $top = $(this).scrollTop();
-				    $banner.stop().animate( { top: $top + $topDefault }, 1000, 'easeOutCirc' );
-				  });
+		jQuery(document).ready(function($) {
+			var $banner = $('.banner'), $window = $(window);
+			var $topDefault = parseFloat($banner.css('top'), 10);
+			$window.on('scroll', function() {
+				var $top = $(this).scrollTop();
+				$banner.stop().animate({
+					top : $top + $topDefault
+				}, 1000, 'easeOutCirc');
+			});
 
-				  var $wiBanner = $banner.outerWidth() * 2;
-				  function zindex(maxWidth){
-				    if( $window.width() <= maxWidth + $wiBanner ) {
-				      $banner.addClass('zindex');
-				    } else {
-				      $banner.removeClass('zindex');
-				    }
-				  }
-				});
-			</script>
+			var $wiBanner = $banner.outerWidth() * 2;
+			function zindex(maxWidth) {
+				if ($window.width() <= maxWidth + $wiBanner) {
+					$banner.addClass('zindex');
+				} else {
+					$banner.removeClass('zindex');
+				}
+			}
+		});
+	</script>
 </body>
 </html>

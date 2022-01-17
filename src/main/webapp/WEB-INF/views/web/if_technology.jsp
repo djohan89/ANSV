@@ -46,7 +46,7 @@
 					<div class="col-md-6 mt-5 pt-1 " data-aos="fade-left">
 						<div class="">
 							<p class="justify">Giải pháp Wi-Fi tổng thể là giải pháp toàn diện, hiệu suất
-								cao, linh hoạt trong triển khai; cung cấp kết nối không dây phù
+								cao, linh hoạt trong triển khai, cung cấp kết nối không dây phù
 								hợp cho tất cả khách hàng cá nhân, doanh nghiệp SME, nhà cung
 								cấp dịch vụ, các cơ quan ban ngành trung ương và địa phương.</p>
 						</div>
@@ -137,10 +137,10 @@
 					</div>
 					<div class="col-md-6 mt-5 pt-1 " data-aos="fade-left">
 						<div class="">
-							<p class="justify">Trung tâm thông tin, chỉ đạo điều hành bao gồm: các dữ
+							<p class="justify">Trung tâm thông tin, chỉ đạo điều hành bao gồm: Các dữ
 								liệu số về tình hình biến động các chỉ số kinh tế - xã hội của
 								địa phương, tỉnh, thành phố, quốc gia; các chỉ số hoạt động, vận
-								hành, kinh tế của 1 tổ chức/ doanh nghiệp, các thông tin đa
+								hành, kinh tế của 1 tổ chức/doanh nghiệp, các thông tin đa
 								chiều theo các nhóm vấn đề, lĩnh vực cụ thể được hiển thị trực
 								quan trên các màn hình điện tử thông qua hệ thống đồ thị, bảng
 								số liệu và liên kết các chỉ số… sẽ hỗ trợ nhà quản trị đưa ra

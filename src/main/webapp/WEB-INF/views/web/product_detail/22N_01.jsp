@@ -228,7 +228,7 @@ img.xzoom:hover {
 									<li>Quản lý qua WebGUI/Telnet/SSH</li>
 									<li>Thông tin thiết bị (Nhà mạng, IMEI, IMSI, chế độ mạng,
 										MAC, RSSI, BER)</li>
-									<li>Thông tin kết nối (tốc dộ, dữ liệu sử dụng)</li>
+									<li>Thông tin kết nối (tốc độ, dữ liệu sử dụng)</li>
 									<li>Chẩn đoán lỗi: Ping, Trace, Log</li>
 									<li>Nâng cấp FW: qua web, từ xa</li>
 									<li>Sao lưu, phục hồi cấu hình</li>

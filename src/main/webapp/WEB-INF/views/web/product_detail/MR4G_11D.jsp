@@ -143,7 +143,7 @@ img.xzoom:hover {
 								</p>
 
 								<p style="text-align: justify">Với thiết kế nhỏ gọn, thanh
-									lịch, tiện dụng, thiết bị phù cho truy cập mạng mọi lúc, mọi
+									lịch, tiện dụng, thiết bị phù hợp cho truy cập mạng mọi lúc, mọi
 									nơi: Du lịch, công tác, hoạt động ngoài trời, trên phương tiện
 									giao thông,…</p>
 

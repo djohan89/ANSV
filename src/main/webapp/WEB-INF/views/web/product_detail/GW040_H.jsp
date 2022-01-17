@@ -206,7 +206,7 @@ img.xzoom:hover {
 								<ul>
 									<li>NAT, SPI Firewall</li>
 									<li>MAC / IP / Packet / Application / URL Filtering</li>
-									<li>Chống tất công từ chối dịch vụ (DoS), SYN Flooding</li>
+									<li>Chống tấn công từ chối dịch vụ (DoS), SYN Flooding</li>
 								</ul>
 
 								<p>

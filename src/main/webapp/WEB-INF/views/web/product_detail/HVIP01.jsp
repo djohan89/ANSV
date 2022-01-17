@@ -226,7 +226,7 @@ img.xzoom:hover {
 		                                            <td class="column2">1080P@15fps</td>
 		                                        </tr>
 		                                                                                                                                                            <tr>
-		                                            <td class="column1">Tố độ truyền dữ liệu</td>
+		                                            <td class="column1">Tốc độ truyền dữ liệu</td>
 		                                            <td class="column2">32Kbps ÷ 2Mbps</td>
 		                                        </tr>
 		                                                                                                                                                                <tr>

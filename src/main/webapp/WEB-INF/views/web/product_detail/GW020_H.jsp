@@ -220,7 +220,7 @@ img.xzoom:hover {
 									<li>NAT and SPI Firewall</li>
 									<li>MAC / IP / Packet / Application / URL Filtering</li>
 									<li>Tấn công từ chối dịch vụ (DoS), SYN&nbsp;Flooding</li>
-									<li>Chữ kí số firmware</li>
+									<li>Chữ ký số firmware</li>
 								</ul>
 
 								<p>

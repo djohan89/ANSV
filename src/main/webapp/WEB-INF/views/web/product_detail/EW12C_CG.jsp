@@ -141,7 +141,7 @@ img.xzoom:hover {
 								class="col-md-12 pt-5 prd-detail-info page-section">
 								<h2 class="title">Tổng Quan:</h2>
 								<p style="text-align: justify">
-									<strong>iGate EW12C/CG</strong> là bộ thu phát WiFi(Access
+									<strong>iGate EW12C/CG</strong> là bộ thu phát WiFi (Access
 									Point) có chức năng tạo ra một mạng lưới không dây cục bộ
 									(WLAN) nhằm chia sẻ kết nối Internet tốc độ cao cho thiết bị
 									người dùng. Với <strong>iGate EW12C</strong> có 1 cổng WAN 100

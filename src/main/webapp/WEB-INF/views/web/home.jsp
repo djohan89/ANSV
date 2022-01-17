@@ -21,7 +21,7 @@
 				<div class="slider-control right"></div>
 				<ul class="slider-pagi"></ul>
 				<div class="slider">
-					
+
 					<c:url value="0" var="id_slide_show" />
 					<c:forEach var="item" items="${ slideshow }" varStatus="index">
 						<c:if test="${ index.first }">
@@ -30,33 +30,37 @@
 						<c:if test="${ not index.first }">
 							<div class="slide slide-${ id_slide_show }">
 						</c:if>
-						
+
 						<c:url value="${id_slide_show+1}" var="id_slide_show" />
-		
-								<div class="slide__bg" style="background-image: url('<c:url value="/assets/user/img/slider/${ item.img }" />');"></div>
-					      		<div class="slide__content">
-						        	<svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
-						          		<path class="slide__overlay-path" d="M0,0 50,0 340,405 0,405" />
+
+						<div class="slide__bg"
+							style="background-image: url('<c:url value="/assets/user/img/slider/${ item.img }" />');"></div>
+						<div class="slide__content">
+							<svg class="slide__overlay" viewBox="0 0 720 405"
+								preserveAspectRatio="xMaxYMax slice">
+						          		<path class="slide__overlay-path"
+									d="M0,0 50,0 340,405 0,405" />
 						        	</svg>
-							        <div class="slide__text">
-							          	<h2 class="slide__text-heading">
-							          		<c:if test="${ index.first }">
-												<img src="<c:url value='/assets/user/img/header/ANSV_logo.png' />" alt="Home" height="70px">
-											</c:if>
-											<c:if test="${ not index.first }">
-												<font color="#e67e22"><b>${ item.caption }</b></font>
-											</c:if>
-							          	</h2>
-							          	<font size="+1" color="black">
-						          			<b>${ item.content }</b>
-						          		</font><br><br>
-							          	<a href="${ item.url }" class="slide__text-link">Tìm hiểu...</a>
-							        </div>
-						      	</div>
-				   	 		</div>				
-					</c:forEach>
-					
+							<div class="slide__text">
+								<h2 class="slide__text-heading">
+									<c:if test="${ index.first }">
+										<img
+											src="<c:url value='/assets/user/img/header/ANSV_logo.png' />"
+											alt="Home" height="70px">
+									</c:if>
+									<c:if test="${ not index.first }">
+										<font color="#e67e22"><b>${ item.caption }</b></font>
+									</c:if>
+								</h2>
+								<font size="+1" color="black"> <b>${ item.content }</b>
+								</font><br> <br> <a href="${ item.url }"
+									class="slide__text-link">Tìm hiểu...</a>
+							</div>
+						</div>
 				</div>
+				</c:forEach>
+
+			</div>
 			</div>
 
 			<link href="<c:url value="/assets/user/css/slide_show.css" />"
@@ -77,286 +81,286 @@
 					src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 				<style>
-					body {
-						background: #f2f2f2;
-						font-family: 'proxima-nova-soft', sans-serif;
-						font-size: 14px;
-						-webkit-font-smoothing: antialiased;
-						-moz-osx-font-smoothing: grayscale;
-					}
-					
-					.post-module {
-						position: relative;
-						z-index: 1;
-						display: block;
-						background: #FFFFFF;
-						min-width: 270px;
-						height: 470px;
-						-webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
-						-moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
-						box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
-						-webkit-transition: all 0.3s linear 0s;
-						-moz-transition: all 0.3s linear 0s;
-						-ms-transition: all 0.3s linear 0s;
-						-o-transition: all 0.3s linear 0s;
-						transition: all 0.3s linear 0s;
-						border-radius: 16px;
-					}
-					
-					.post-module:hover, .hover {
-						-webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
-						-moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
-						box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
-					}
-					
-					.post-module:hover .thumbnail img, .hover .thumbnail img {
-						-webkit-transform: scale(1.1);
-						-moz-transform: scale(1.1);
-						transform: scale(1.1);
-						opacity: 0.6;
-					}
-					
-					.post-module .thumbnail {
-						background: white;
-						height: 400px;
-						overflow: hidden;
-						border-radius: 16px;
-					}
-					
-					.post-module .thumbnail img {
-						display: block;
-						width: 120%;
-						-webkit-transition: all 0.3s linear 0s;
-						-moz-transition: all 0.3s linear 0s;
-						-ms-transition: all 0.3s linear 0s;
-						-o-transition: all 0.3s linear 0s;
-						transition: all 0.3s linear 0s;
-					}
-					
-					.post-module .post-content {
-						position: absolute;
-						bottom: 0;
-						/* background: #FFFFFF; */
-						background: #FFFFFF;
-						width: 100%;
-						/* padding: 30px; */
-						-webkti-box-sizing: border-box;
-						-moz-box-sizing: border-box;
-						box-sizing: border-box;
-						-webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
-						-moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
-						-ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
-						-o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
-						transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
-						border-radius: 0 0 16px 16px;
-					}
-					
-					.post-module .post-content .post-content-child {
-						background-color: rgba(0,102,179,.1);
-						padding: 30px;
-						border-radius: 0 0 16px 16px;
-					}
-					
-					.post-module .post-content .post-content-child-news {
-						background-color: #0d3dcf;
-						color: #FFFFFF;
-						padding: 15px 25px 25px 25px;
-						border-radius: 0 0 16px 16px;
-					}
-					
-					.post-module .post-content .post-content-child-news .news-logo {
-						margin: auto;
-						width: 30%;
-					}
-					
-					.post-module .post-content .category {
-						position: absolute;
-						top: -34px;
-						left: 0;
-						background: #e74c3c;
-						padding: 10px 15px;
-						color: #FFFFFF;
-						font-size: 14px;
-						font-weight: 600;
-						text-transform: uppercase;
-					}
-					
-					.post-module .post-content .title {
-						margin: 0;
-						padding: 0 0 10px;
-						color: #333333;
-						font-size: 26px;
-						font-weight: 700;
-					}
-					
-					.post-module .post-content .desc {
-						overflow: hidden;
-						text-overflow: ellipsis;
-						-webkit-box-orient: vertical;
-						display: -webkit-box;
-						-webkit-line-clamp: 2;
-						text-align: left;
-					}
-					
-					.post-module .post-content .sub_title {
-						margin: 0;
-						/* padding: 0 0 20px; */
-						padding-bottom: 20px;
-						margin-bottom: 20px;
-						font-size: 20px;
-						font-weight: 400;
-						/* color: #e74c3c; */
-						color: #FF6600;
-					}
-					
-					.post-module .post-content .sub_title_2 {
-						margin: 0;
-						padding-bottom: 20px;
-						margin-bottom: 20px;
-						font-size: 20px;
-						font-weight: 400;
-						color: #FFFFFF;
-						border-bottom: 2px solid white;
-					}
-					
-					.post-module .post-content .post-content-child .description {
-						display: none;
-						/* color: #666666; */
-						color: #000000;
-						font-size: 14px;
-						line-height: 1.8em;
-					}
-					
-					.post-module .post-content .post-content-child-news .description {
-						display: none;
-						/* color: #666666; */
-						color: #FFFFFF;
-						font-size: 14px;
-						line-height: 1.8em;
-						padding-bottom: 20px;
-						border-bottom: 2px solid white;
-					}
-					
-					.post-module .post-content .post-meta {
-						margin: 30px 0 0;
-						color: #999999;
-					}
-					
-					.post-module .post-content .post-meta .timestamp {
-						margin: 0 16px 0 0;
-					}
-					
-					.post-module .post-content .post-content-child .post-meta a {
-						color: #999999;
-						text-decoration: none;
-					}
-					
-					.post-module .post-content .post-content-child-news .post-meta a {
-						color: #FFFFFF;
-						text-decoration: none;
-					}
-					
-					.hover .post-content .description {
-						display: block !important;
-						height: auto !important;
-						opacity: 1 !important;
-					}
-					
-					.container {
-						margin: 0 auto;
-					}
-					
-					.container:before, .container:after {
-						content: '';
-						display: block;
-						clear: both;
-					}
-					
-					.container .column {
-						width: 50%;
-						padding: 0 25px;
-						-webkti-box-sizing: border-box;
-						-moz-box-sizing: border-box;
-						box-sizing: border-box;
-						float: left;
-					}
-					
-					.container .column .demo-title {
-						margin: 0 0 15px;
-						color: #666666;
-						font-size: 18px;
-						font-weight: bold;
-						text-transform: uppercase;
-					}
-					
-					.container .info {
-						width: 300px;
-						margin: 50px auto;
-						text-align: center;
-					}
-					
-					.container .info h1 {
-						margin: 0 0 15px;
-						padding: 0;
-						font-size: 24px;
-						font-weight: bold;
-						color: #333333;
-					}
-					
-					.container .info span {
-						color: #666666;
-						font-size: 12px;
-					}
-					
-					.container .info span a {
-						color: #000000;
-						text-decoration: none;
-					}
-					
-					.container .info span .fa {
-						color: #e74c3c;
-					}
-					
-					/*CSS cho nội dung bên trong thẻ <p>*/
-					p {
-						text-align: justify;
-						line-height: 1.5;
-					}
-					
-					.text-less {
-						overflow: hidden;
-						text-overflow: ellipsis;
-						line-height: 20px;
-						-webkit-line-clamp: 4;
-						display: -webkit-box;
-						-webkit-box-orient: vertical;
-					}
-					
-					.title-bold {
-						font-weight: bold !important;
-					}
-					
-					.p-n-title {
-						font-size: 17px;
-					    text-transform: inherit;
-					    overflow: hidden;
-					    text-overflow: ellipsis;
-					    -webkit-box-orient: vertical;
-					    display: -webkit-box;
-					    -webkit-line-clamp: 2;
-					    min-height: 50px;
-					}
-					
-					.p-n-content {
-					    text-transform: inherit;
-					    overflow: hidden;
-					    text-overflow: ellipsis;
-					    -webkit-box-orient: vertical;
-					    display: -webkit-box;
-					    -webkit-line-clamp: 5;
-					    min-height: 50px;
-					}
-				</style>
+body {
+	background: #f2f2f2;
+	font-family: 'proxima-nova-soft', sans-serif;
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.post-module {
+	position: relative;
+	z-index: 1;
+	display: block;
+	background: #FFFFFF;
+	min-width: 270px;
+	height: 470px;
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+	-webkit-transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	-ms-transition: all 0.3s linear 0s;
+	-o-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+	border-radius: 16px;
+}
+
+.post-module:hover, .hover {
+	-webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+}
+
+.post-module:hover .thumbnail img, .hover .thumbnail img {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	transform: scale(1.1);
+	opacity: 0.6;
+}
+
+.post-module .thumbnail {
+	background: white;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 16px;
+}
+
+.post-module .thumbnail img {
+	display: block;
+	width: 120%;
+	-webkit-transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	-ms-transition: all 0.3s linear 0s;
+	-o-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+}
+
+.post-module .post-content {
+	position: absolute;
+	bottom: 0;
+	/* background: #FFFFFF; */
+	background: #FFFFFF;
+	width: 100%;
+	/* padding: 30px; */
+	-webkti-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+	-moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+	-ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+	-o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+	transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+	border-radius: 0 0 16px 16px;
+}
+
+.post-module .post-content .post-content-child {
+	background-color: rgba(0, 102, 179, .1);
+	padding: 30px;
+	border-radius: 0 0 16px 16px;
+}
+
+.post-module .post-content .post-content-child-news {
+	background-color: #0d3dcf;
+	color: #FFFFFF;
+	padding: 15px 25px 25px 25px;
+	border-radius: 0 0 16px 16px;
+}
+
+.post-module .post-content .post-content-child-news .news-logo {
+	margin: auto;
+	width: 30%;
+}
+
+.post-module .post-content .category {
+	position: absolute;
+	top: -34px;
+	left: 0;
+	background: #e74c3c;
+	padding: 10px 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.post-module .post-content .title {
+	margin: 0;
+	padding: 0 0 10px;
+	color: #333333;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.post-module .post-content .desc {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	text-align: left;
+}
+
+.post-module .post-content .sub_title {
+	margin: 0;
+	/* padding: 0 0 20px; */
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 400;
+	/* color: #e74c3c; */
+	color: #FF6600;
+}
+
+.post-module .post-content .sub_title_2 {
+	margin: 0;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #FFFFFF;
+	border-bottom: 2px solid white;
+}
+
+.post-module .post-content .post-content-child .description {
+	display: none;
+	/* color: #666666; */
+	color: #000000;
+	font-size: 14px;
+	line-height: 1.8em;
+}
+
+.post-module .post-content .post-content-child-news .description {
+	display: none;
+	/* color: #666666; */
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 1.8em;
+	padding-bottom: 20px;
+	border-bottom: 2px solid white;
+}
+
+.post-module .post-content .post-meta {
+	margin: 30px 0 0;
+	color: #999999;
+}
+
+.post-module .post-content .post-meta .timestamp {
+	margin: 0 16px 0 0;
+}
+
+.post-module .post-content .post-content-child .post-meta a {
+	color: #999999;
+	text-decoration: none;
+}
+
+.post-module .post-content .post-content-child-news .post-meta a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.hover .post-content .description {
+	display: block !important;
+	height: auto !important;
+	opacity: 1 !important;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.container:before, .container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.container .column {
+	width: 50%;
+	padding: 0 25px;
+	-webkti-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+
+.container .column .demo-title {
+	margin: 0 0 15px;
+	color: #666666;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.container .info {
+	width: 300px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.container .info h1 {
+	margin: 0 0 15px;
+	padding: 0;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.container .info span {
+	color: #666666;
+	font-size: 12px;
+}
+
+.container .info span a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.container .info span .fa {
+	color: #e74c3c;
+}
+
+/*CSS cho nội dung bên trong thẻ <p>*/
+p {
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.text-less {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 20px;
+	-webkit-line-clamp: 4;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+
+.title-bold {
+	font-weight: bold !important;
+}
+
+.p-n-title {
+	font-size: 17px;
+	text-transform: inherit;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	min-height: 50px;
+}
+
+.p-n-content {
+	text-transform: inherit;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	min-height: 50px;
+}
+</style>
 
 				<script>
 					$(document).ready(function() {
@@ -376,9 +380,10 @@
 				</div>
 
 				<div class="row content">
-				
-					<c:forEach var="item_highlight" items="${highlight}" varStatus="index">
-					
+
+					<c:forEach var="item_highlight" items="${highlight}"
+						varStatus="index">
+
 						<div class="col-lg-4">
 							<div class="post-module">
 								<div class="thumbnail">
@@ -387,24 +392,23 @@
 								</div>
 								<div class="post-content">
 									<div class="post-content-child">
-										<a href="#">
-											<font color="gray">${item_highlight.header_title}</font>
-										</a><br><br>
+										<a href="#"> <font color="gray">${item_highlight.header_title}</font>
+										</a><br> <br>
 										<h1 class="title">${item_highlight.title}</h1>
 										<h2 class="sub_title">${item_highlight.sub_title}</h2>
 										<p class="description" style="margin-top: -7%;">${item_highlight.content}</p>
 										<div class="post-meta" align="right">
-											<span class="comments">
-												<a href="${item_highlight.url}">Xem thêm...</a>
+											<span class="comments"> <a
+												href="${item_highlight.url}">Xem thêm...</a>
 											</span>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					
+
 					</c:forEach>
-				
+
 					<%-- <div class="col-lg-4">
 						<div class="post-module">
 							<div class="thumbnail">
@@ -530,17 +534,20 @@
 
 									<div class="feature f01" tabindex="0">
 										<div id="owl-demo" class="owl-carousel owl-theme">
-										
+
 											<c:forEach var="item_news" items="${news}" varStatus="index">
-												
+
 												<div class="item">
 													<div class="post-module">
 														<div class="thumbnail">
-															<img src="<c:url value='/assets/user/img/news/${item_news.img}' />">
+															<img
+																src="<c:url value='/assets/user/img/news/${item_news.img}' />">
 														</div>
 														<div class="post-content">
 															<div class="post-content-child-news">
-																<img src="<c:url value='/assets/user/img/header/ANSV_logo.png' />" class="news-logo">
+																<img
+																	src="<c:url value='/assets/user/img/header/ANSV_logo.png' />"
+																	class="news-logo">
 																<h1 class="title"></h1>
 																<h2 class="sub_title_2 title-bold">
 																	<div class="p-n-title">${item_news.title}</div>
@@ -557,9 +564,9 @@
 														</div>
 													</div>
 												</div>
-												
+
 											</c:forEach>
-										
+
 										</div>
 
 										<ul class="mo_only">
@@ -611,14 +618,15 @@
 						<h3>Lĩnh Vực Hoạt Động</h3>
 						<!-- <h3>Với hơn 28 năm kinh nghiệm, công ty TNHH Thiết Bị Viễn Thông ANSV là nhà tích hợp hệ thống, cung cấp các sản phẩm/giải pháp và dịch vụ công nghệ thông tin hàng đầu tại Việt Nam, có vị thế vững chắc ở thị trường trong nước và trong khu vực</h3>-->
 						<p style="text-align: justify;">
-							Với hơn 28 năm kinh nghiệm, công ty TNHH Thiết Bị Viễn Thông
-							<font color="#FF6600"><b>ANSV</b></font>
-							là nhà tích hợp hệ thống,
+							Với hơn 28 năm kinh nghiệm, công ty TNHH Thiết Bị Viễn Thông <font
+								color="#FF6600"><b>ANSV</b></font> là nhà tích hợp hệ thống,
 							cung cấp các sản phẩm/giải pháp và dịch vụ công nghệ thông tin
 							hàng đầu tại Việt Nam, có vị thế vững chắc ở thị trường trong
 							nước và trong khu vực.
-						</p><br>
-						<img src="<c:url value="/assets/user/img/About_us.JPG" />" class="img-fluid" alt="">
+						</p>
+						<br> <img
+							src="<c:url value="/assets/user/img/About_us.JPG" />"
+							class="img-fluid" alt="">
 					</div>
 
 
@@ -639,44 +647,44 @@
 							<div class="tab-content rounded mt-2">
 								<div class="tab-pane container p-0 active" id="home1">
 									<p style="text-align: justify;">
-										<font color="#FF6600"><b>ANSV</b></font>
-										dựa trên ứng dụng KHCN - CNTT-VT cùng sự liên tục đổi mới sáng tạo 
-										và sức mạnh kết nối của các thành tựu công nghệ quốc tế cùng với 
-										những chuyên gia, kỹ sư người Việt nam, chúng tôi luôn nỗ lực phát 
-										triển, nâng cao giá trị cho cộng đồng, hướng tới mục tiêu đặt một 
-										dấu ấn vững chắc trên bản đồ công nghệ toàn cầu.
+										<font color="#FF6600"><b>ANSV</b></font> dựa trên ứng dụng
+										KHCN - CNTT - VT cùng sự liên tục đổi mới sáng tạo và sức mạnh
+										kết nối của các thành tựu công nghệ quốc tế cùng với những
+										chuyên gia, kỹ sư người Việt Nam, chúng tôi luôn nỗ lực phát
+										triển, nâng cao giá trị cho cộng đồng, hướng tới mục tiêu đặt
+										một dấu ấn vững chắc trên bản đồ công nghệ toàn cầu.
 									</p>
 
 								</div>
 								<div class="tab-pane container p-0 fade" id="home2">
 									<p style="text-align: justify;">
-										<font color="#FF6600"><b>ANSV</b></font>
-										định hướng trở thành doanh nghiệp đi đầu trong lĩnh vực chuyển đổi 
-										số, tích hợp hệ thông CNTT - VT, phân phối bán lẻ các sản phẩm công 
-										nghệ ở thị trường Việt Nam và thị trường khu vực.
+										<font color="#FF6600"><b>ANSV</b></font> định hướng trở thành
+										doanh nghiệp đi đầu trong lĩnh vực chuyển đổi số, tích hợp hệ
+										thống CNTT - VT, phân phối bán lẻ các sản phẩm công nghệ ở thị
+										trường Việt Nam và thị trường khu vực.
 									</p>
 								</div>
 								<div class="tab-pane container p-0 fade" id="home3">
 									<p style="text-align: justify;">
-										<span> 
-											"Văn hóa là tinh thần - Sức mạnh Team work" luôn được đề cao và 
-											là văn hóa cốt lõi của Doanh nghiệp, tạo nên tinh thần 
-											<font color="#FF6600"><b>ANSV</b></font>, giúp chúng tôi không ngừng nỗ lực , sáng tạo vì lợi ích chung 
-											của tập thể, của khách hàng và của xã hội.
-										</span></br><br>
-										<span>
-											"Con người là sức mạnh"- Với nguồn lực là đội ngũ cán bộ, kỹ sư 
-											được đào tạo bài bản và có nhiều năm kinh nghiệm, 
-											<font color="#FF6600"><b>ANSV</b></font> 
-											là nơi quy tụ và kết nối những nhân tài có sức sáng tạo và đam mê, 
-											cùng hướng tới mục tiêu phát triển các sản phẩm, giải đáp, dịch vụ 
-											công nghệ chất lượng cao, hữu ích phục vụ cuộc sống và cộng đồng.
+										<span> "Văn hóa là tinh thần - Sức mạnh Team work" luôn
+											được đề cao và là văn hóa cốt lõi của Doanh nghiệp, tạo nên
+											tinh thần <font color="#FF6600"><b>ANSV</b></font>, giúp
+											chúng tôi không ngừng nỗ lực, sáng tạo vì lợi ích chung của
+											tập thể, của khách hàng và của xã hội.
+										</span></br> <br> <span> "Con người là sức mạnh"- Với nguồn
+											lực là đội ngũ cán bộ, kỹ sư được đào tạo bài bản và có nhiều
+											năm kinh nghiệm, <font color="#FF6600"><b>ANSV</b></font> là
+											nơi quy tụ và kết nối những nhân tài có sức sáng tạo và đam
+											mê, cùng hướng tới mục tiêu phát triển các sản phẩm, giải
+											đáp, dịch vụ công nghệ chất lượng cao, hữu ích phục vụ cuộc
+											sống và cộng đồng.
 										</span>
 									</p>
 								</div>
 							</div>
 						</div>
-						<img src="<c:url value="/assets/user/img/infor.jpg" />" class="img-fluid" alt="" style="padding-top: 5%">
+						<img src="<c:url value="/assets/user/img/infor.jpg" />"
+							class="img-fluid" alt="" style="padding-top: 5%">
 					</div>
 				</div>
 
@@ -711,34 +719,34 @@
 			id='fat-gallery-js'></script>
 
 		<style>
-			.in-dam {
-				font-weight: bold;
-			}
-			
-			.xem-them-1 {
-				position: absolute;
-				bottom: 4%;
-				right: 5%;
-			}
-			
-			.xem-them-2:visited {
-				color: gray;
-			}
-			
-			.xem-them-2:hover {
-				text-decoration: underline;
-				color: #FF6600;
-			}
-			
-			/*CSS tiêu đề hover outer*/
-			.fat-gallery-title h5 {
-				font-size: 14px;
-				color: #333;
-				font-style: normal;
-				font-weight: normal;
-				text-transform: none;
-			}
-		</style>
+.in-dam {
+	font-weight: bold;
+}
+
+.xem-them-1 {
+	position: absolute;
+	bottom: 4%;
+	right: 5%;
+}
+
+.xem-them-2:visited {
+	color: gray;
+}
+
+.xem-them-2:hover {
+	text-decoration: underline;
+	color: #FF6600;
+}
+
+/*CSS tiêu đề hover outer*/
+.fat-gallery-title h5 {
+	font-size: 14px;
+	color: #333;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+}
+</style>
 
 		<section class="home-page">
 			<div class="section-title">
@@ -788,9 +796,9 @@
 																		<p class="in-dam">
 																			<font color="#FF6600" size="+1"><b>ANSV</b></font> <span>là
 																				đơn vị đầu tiên thực hiện các dự án triển khai mạng
-																				di động từ những năm 1993 tới nay, Cùng với cách
+																				di động từ những năm 1993 tới nay, cùng với cách
 																				mạng công nghiệp 4.0 và sự bùng nổ công nghệ thông
-																				tin như hiện nay, công nghệ mạng di động đã phát
+																				tin như hiện nay. Công nghệ mạng di động đã phát
 																				triển với một tốc độ hết sức nhanh chóng hướng tới
 																				thế hệ thứ 5G, 6G.....</span>
 																		</p>
@@ -835,7 +843,7 @@
 																			<font color="#FF6600" size="+1"><b>ANSV</b></font> <span>cung
 																				cấp giải pháp tổng thể công nghệ mạng gigabit quang
 																				thụ động (GPON) bao gồm OLT, ONT và hệ thống quản lý
-																				tập trung NMS. Đối tượng khách hàng mà chúng tôi
+																				tập trung GNMS. Đối tượng khách hàng mà chúng tôi
 																				hướng đến: Nhà mạng, doanh nghiệp và hộ gia
 																				đình.....</span>
 																		</p>
@@ -963,8 +971,8 @@
 																		<p class="in-dam">
 																			<span>Giải pháp Wi-Fi tổng thể –</span> <font
 																				color="#FF6600" size="+1"><b>Wifi Total
-																					Solution</b></font> <span>là giải pháp toàn diện, hiệu
-																				suất cao, linh hoạt trong triển khai; cung cấp kết
+																					Solution</b></font> <span> là giải pháp toàn diện, hiệu
+																				suất cao, linh hoạt trong triển khai, cung cấp kết
 																				nối không dây phù hợp cho tất cả khách hàng cá nhân,
 																				doanh nghiệp SME, nhà cung cấp dịch vụ, các cơ quan
 																				ban ngành trung ương và địa phương.....</span>
@@ -1050,11 +1058,11 @@
 																		<br>
 																		<p class="in-dam">
 																			<span>Cung cấp và tích hợp các giải pháp hạ
-																				tầng cơ sở CNTT như giải pháp Ảo hóa và Điện toán
-																				đám mây, giải pháp Hạ tầng mạng, giải pháp Hạ tầng
-																				trung tâm dữ liệu, giải pháp Hệ thống máy chủ và lưu
+																				tầng cơ sở CNTT như giải pháp ảo hóa và điện toán
+																				đám mây, giải pháp hạ tầng mạng, giải pháp hạ tầng
+																				trung tâm dữ liệu, giải pháp hệ thống máy chủ và lưu
 																				trữ, giải pháp hội nghị truyền hình, giải pháp
-																				Truyền thông hợp nhất và.....</span>
+																				truyền thông hợp nhất và.....</span>
 																		</p>
 																		<p class="xem-them-1">
 																			<a href="cong-nghe-thong-tin"
@@ -1102,7 +1110,7 @@
 																				trả sau cho nhà mạng Mobifone tích hợp với các thành
 																				phần core trong mạng (mSTP, SDC, HLR, MSC, PGW,
 																				PCRF…) và các hệ thống hỗ trợ, giám sát, khai báo
-																				thông tin thuê.....</span>
+																				thông tin thuê bao.....</span>
 																		</p>
 																		<p class="xem-them-1">
 																			<a href="cong-nghe-thong-tin"
@@ -1145,10 +1153,10 @@
 																		<p class="in-dam">
 																			<font color="#FF6600" size="+1"><b>Trung
 																					tâm thông tin, chỉ đạo điều hành</b></font> <span>bao
-																				gồm: các dữ liệu số về tình hình biến động các chỉ
+																				gồm: Các dữ liệu số về tình hình biến động các chỉ
 																				số kinh tế - xã hội của địa phương, tỉnh, thành phố,
 																				quốc gia; các chỉ số hoạt động, vận hành, kinh tế
-																				của 1 tổ chức/ doanh nghiệp, các thông tin.....</span>
+																				của 1 tổ chức/doanh nghiệp, các thông tin...</span>
 																		</p>
 																		<p class="xem-them-1">
 																			<a href="cong-nghe-thong-tin"
@@ -1191,10 +1199,10 @@
 
 
 		<style>
-			.portfolio-item img {
-				background-color: lightblue;
-			}
-		</style>
+.portfolio-item img {
+	background-color: lightblue;
+}
+</style>
 
 		<!-- ======= Portfolio Section ======= -->
 		<section id="portfolio" class="portfolio">
@@ -1208,7 +1216,8 @@
 					<div class="col-lg-12 d-flex justify-content-center">
 						<ul id="portfolio-flters">
 							<li data-filter="*" class="filter-active">All</li>
-							<li data-filter=".filter-card">Sản Phẩm Công Nghệ Công Nghiệp</li>
+							<li data-filter=".filter-card">Sản Phẩm Công Nghệ Công
+								Nghiệp</li>
 							<li data-filter=".filter-app">Sản Phẩm Thương Mại</li>
 							<!--<li data-filter=".filter-web">Web</li>-->
 						</ul>
@@ -1217,38 +1226,38 @@
 
 				<div class="row portfolio-container " data-aos="fade-up">
 					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-						<img src="<c:url value="/assets/user/img/san_pham/png/HVOF01.png" />"
+						<img
+							src="<c:url value="/assets/user/img/san_pham/png/HVOF01.png" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
 							<h4>
 								<a href="HVOF01">Home Vision HVOF01 </a>
 							</h4>
 							<p></p>
-							<a href="<c:url value="/assets/user/img/san_pham/png/HVOF01.png" />"
+							<a
+								href="<c:url value="/assets/user/img/san_pham/png/HVOF01.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
-								title="Home Vision HVOF01">
-								<i class="bx bx-plus"></i>
-							</a>
-							<a href="HVOF01" class="details-link" title="More Details">
+								title="Home Vision HVOF01"> <i class="bx bx-plus"></i>
+							</a> <a href="HVOF01" class="details-link" title="More Details">
 								<i class="bx bx-link"></i>
 							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-						<img src="<c:url value="/assets/user/img/san_pham/png/HVIP01.png" />"
+						<img
+							src="<c:url value="/assets/user/img/san_pham/png/HVIP01.png" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
 							<h4>
 								<a href="HVIP01">Home Vision HVIP01 </a>
 							</h4>
 							<p></p>
-							<a href="<c:url value="/assets/user/img/san_pham/png/HVIP01.png" />"
+							<a
+								href="<c:url value="/assets/user/img/san_pham/png/HVIP01.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
-								title="Home Vision HVIP01">
-								<i class="bx bx-plus"></i>
-							</a>
-							<a href="HVIP01" class="details-link" title="More Details">
+								title="Home Vision HVIP01"> <i class="bx bx-plus"></i>
+							</a> <a href="HVIP01" class="details-link" title="More Details">
 								<i class="bx bx-link"></i>
 							</a>
 						</div>
@@ -1335,85 +1344,89 @@
 								<a href="GW240_H">GPON ONT iGate GW240-H</a>
 							</h4>
 							<p></p>
-							<a href="<c:url value="/assets/user/img/san_pham/png/GPON-ONT-iGate-GW240-H.png" />"
+							<a
+								href="<c:url value="/assets/user/img/san_pham/png/GPON-ONT-iGate-GW240-H.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
-								title="GPON ONT iGate GW240-H">
-								<i class="bx bx-plus"></i>
-							</a>
-							<a href="GW240_H" class="details-link" title="More Details">
+								title="GPON ONT iGate GW240-H"> <i class="bx bx-plus"></i>
+							</a> <a href="GW240_H" class="details-link" title="More Details">
 								<i class="bx bx-link"></i>
 							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-						<img src="<c:url value="/assets/user/img/san_pham/png/truy-cap-quang-GPON.png" />"
+						<img
+							src="<c:url value="/assets/user/img/san_pham/png/truy-cap-quang-GPON.png" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info d-flex">
 							<h4>
-								<a href="javascript:void(0)">Hệ thống thiết bị mạng<br>truy cập quang GPON</a>
+								<a href="javascript:void(0)">Hệ thống thiết bị mạng<br>truy
+									cập quang GPON
+								</a>
 							</h4>
-							<a href="<c:url value="/assets/user/img/san_pham/png/truy-cap-quang-GPON.png" />"
+							<a
+								href="<c:url value="/assets/user/img/san_pham/png/truy-cap-quang-GPON.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
-								title="Hệ thống thiết bị mạng truy cập quang GPON">
-								<i class="bx bx-plus"></i>
-							</a> 
-							<a href="javascript:void(0)" class="details-link" title="More Details">
-								<i class="bx bx-link"></i>
+								title="Hệ thống thiết bị mạng truy cập quang GPON"> <i
+								class="bx bx-plus"></i>
+							</a> <a href="javascript:void(0)" class="details-link"
+								title="More Details"> <i class="bx bx-link"></i>
 							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-						<img src="<c:url value="/assets/user/img/san_pham/png/DWDM.png" />" class="img-fluid" alt="">
+						<img
+							src="<c:url value="/assets/user/img/san_pham/png/DWDM.png" />"
+							class="img-fluid" alt="">
 						<div class="portfolio-info">
 							<h4>
 								<a href="javascript:void(0)">Hệ thống truyền dẫn DWDM</a>
 							</h4>
-							<a href="<c:url value="/assets/user/img/san_pham/png/DWDM.png" />"
+							<a
+								href="<c:url value="/assets/user/img/san_pham/png/DWDM.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
-								title="Hệ thống truyền dẫn DWDM">
-								<i class="bx bx-plus"></i>
-							</a>
-							<a href="javascript:void(0)" class="details-link" title="More Details">
-								<i class="bx bx-link"></i>
+								title="Hệ thống truyền dẫn DWDM"> <i class="bx bx-plus"></i>
+							</a> <a href="javascript:void(0)" class="details-link"
+								title="More Details"> <i class="bx bx-link"></i>
 							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-						<img src="<c:url value="/assets/user/img/san_pham/png/nguon.png" />" class="img-fluid" alt="">
+						<img
+							src="<c:url value="/assets/user/img/san_pham/png/nguon.png" />"
+							class="img-fluid" alt="">
 						<div class="portfolio-info">
 							<h4>
 								<a href="javascript:void(0)">Nguồn</a>
 							</h4>
 							<p></p>
-							<a href="<c:url value="/assets/user/img/san_pham/png/nguon.png" />"
+							<a
+								href="<c:url value="/assets/user/img/san_pham/png/nguon.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
-								title="Nguồn">
-								<i class="bx bx-plus"></i>
-							</a> 
-							<a href="javascript:void(0)" class="details-link" title="More Details">
-								<i class="bx bx-link"></i>
+								title="Nguồn"> <i class="bx bx-plus"></i>
+							</a> <a href="javascript:void(0)" class="details-link"
+								title="More Details"> <i class="bx bx-link"></i>
 							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-						<img src="<c:url value="/assets/user/img/san_pham/png/san-pham-IP.png" />"
+						<img
+							src="<c:url value="/assets/user/img/san_pham/png/san-pham-IP.png" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
 							<h4>
 								<a href="#">Các sản phẩm IP</a>
 							</h4>
 							<p></p>
-							<a href="<c:url value="/assets/user/img/san_pham/png/san-pham-IP.png" />"
+							<a
+								href="<c:url value="/assets/user/img/san_pham/png/san-pham-IP.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
-								title="IP">
-								<i class="bx bx-plus"></i>
-							</a>
-							<a href="javascript:void(0)" class="details-link" title="More Details">
-								<i class="bx bx-link"></i>
+								title="IP"> <i class="bx bx-plus"></i>
+							</a> <a href="javascript:void(0)" class="details-link"
+								title="More Details"> <i class="bx bx-link"></i>
 							</a>
 						</div>
 					</div>
@@ -1424,15 +1437,17 @@
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
 							<h4>
-								<a href="MR4G_11D">4G LTE Mobile Hotspot<br>– iGate MR4G-11D</a>
+								<a href="MR4G_11D">4G LTE Mobile Hotspot<br>– iGate
+									MR4G-11D
+								</a>
 							</h4>
 							<p></p>
-							<a href="<c:url value="/assets/user/img/san_pham/png/iGate-MR4G-11D.png" />"
+							<a
+								href="<c:url value="/assets/user/img/san_pham/png/iGate-MR4G-11D.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
-								title="4G LTE Mobile Hotspot – iGate MR4G-11D">
-								<i class="bx bx-plus"></i>
-							</a>
-							<a href="MR4G_11D" class="details-link" title="More Details">
+								title="4G LTE Mobile Hotspot – iGate MR4G-11D"> <i
+								class="bx bx-plus"></i>
+							</a> <a href="MR4G_11D" class="details-link" title="More Details">
 								<i class="bx bx-link"></i>
 							</a>
 						</div>
@@ -1444,15 +1459,17 @@
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
 							<h4>
-								<a href="22N_01">MULTIMODE LTE ROUTER<br>- IGATE R4G 22N-01</a>
+								<a href="22N_01">MULTIMODE LTE ROUTER<br>- IGATE R4G
+									22N-01
+								</a>
 							</h4>
 							<p></p>
-							<a href="<c:url value="/assets/user/img/san_pham/png/IGATE-R4G-22N-01.png" />"
+							<a
+								href="<c:url value="/assets/user/img/san_pham/png/IGATE-R4G-22N-01.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
-								title="MULTIMODE LTE ROUTER - IGATE R4G 22N-01">
-								<i class="bx bx-plus"></i>
-							</a> 
-							<a href="22N_01" class="details-link" title="More Details">
+								title="MULTIMODE LTE ROUTER - IGATE R4G 22N-01"> <i
+								class="bx bx-plus"></i>
+							</a> <a href="22N_01" class="details-link" title="More Details">
 								<i class="bx bx-link"></i>
 							</a>
 						</div>
@@ -1572,7 +1589,8 @@
 
 
 
-					<div class="section bu-g-solution-static-content" style="width: 100%;">
+					<div class="section bu-g-solution-static-content"
+						style="width: 100%;">
 						<!-- Thư viện -->
 						<link rel="stylesheet"
 							href="<c:url value="/assets/user/css/test/handmade-content-videos.css" />"
@@ -1585,8 +1603,8 @@
 										src="<c:url value="/assets/user/img/bg/dark-backgrounds.jpg" />"
 										data-src-pc="<c:url value="/assets/user/img/bg/dark-backgrounds.jpg" />"
 										data-src-mobile="<c:url value="/assets/user/img/bg/dark-backgrounds.jpg" />"
-										alt="A black background image with thin blue curves at the bottom." style="height: 550px" />
-									<span></span>
+										alt="A black background image with thin blue curves at the bottom."
+										style="height: 550px" /> <span></span>
 								</div>
 								<h3>Cuộc sống của chúng tôi</h3>
 								<div class="video_ul">
@@ -1609,14 +1627,13 @@
 												</div>
 											</div></li>
 
-										<li class="" style="margin-left: -75%;">
-											<a data-src="F4U5yuAqqcE" data-omni-type="microsite_b2bcontent"
-												data-omni="networks home_video:How Samsung Networks helps enterprises build a reliable private network - New Business Team"
-												href="#" title="WATCH : Giới thiệu Tập đoàn VNPT - 2018">
-												<span class="video_img"> 
-												<img src="<c:url value="/assets/user/img/test/tap-doan-vnpt.jpg" />"
-													alt="Video - Giới thiệu Tập đoàn VNPT - 2018">
-												<span>watch</span>
+										<li class="" style="margin-left: -75%;"><a
+											data-src="F4U5yuAqqcE" data-omni-type="microsite_b2bcontent"
+											data-omni="networks home_video:How Samsung Networks helps enterprises build a reliable private network - New Business Team"
+											href="#" title="WATCH : Giới thiệu Tập đoàn VNPT - 2018">
+												<span class="video_img"> <img
+													src="<c:url value="/assets/user/img/test/tap-doan-vnpt.jpg" />"
+													alt="Video - Giới thiệu Tập đoàn VNPT - 2018"> <span>watch</span>
 											</span>
 										</a>
 											<div class="video_txt">
@@ -1653,7 +1670,7 @@
 										</a>
 											<div class="video_txt">
 												<div class="txt_motion">
-													<p class="v-desc">VNPT - IT trong công cuộc "Chuyển đối
+													<p class="v-desc">VNPT - IT trong công cuộc "Chuyển đổi
 														số quốc gia"</p>
 												</div>
 											</div></li>

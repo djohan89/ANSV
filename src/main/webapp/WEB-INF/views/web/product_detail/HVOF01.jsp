@@ -125,11 +125,11 @@ img.xzoom:hover {
 								class="col-md-12 pt-5 prd-detail-info page-section">
 								<h2 class="title">Tổng Quan:</h2>
 								<p style="text-align: justify;">
-									<strong>Home Vision HVOF01</strong>là thiết bị giám sát an ninh
+									<strong>Home Vision HVOF01</strong> là thiết bị giám sát an ninh
 									ngoài trời độ phân giải cao kết hợp với khả năng nhìn ban đêm
 									mang đến chất lượng hình ảnh rõ nét thậm chí ở những vị trí
 									không có ánh sáng. Góc quan sát rộng giúp gia chủ, người quản
-									lý có thể theo dõi, kiểm soát toàn cảnh khu vực xung quoanh hộ gia đình,
+									lý có thể theo dõi, kiểm soát toàn cảnh khu vực xung quanh hộ gia đình,
 									văn phòng, xí nghiệp, cơ quan, cửa hàng một cách dễ dàng.
 								</p>
 							</div>
@@ -226,7 +226,7 @@ img.xzoom:hover {
 												<td class="column2">1080P@15fps</td>
 											</tr>
 											<tr>
-												<td class="column1">Tố độ truyền dữ liệu</td>
+												<td class="column1">Tốc độ truyền dữ liệu</td>
 												<td class="column2">32Kbps ÷ 2Mbps</td>
 											</tr>
 											<tr>
