@@ -92,11 +92,11 @@
 							<p class="justify">Với phương châm hoạt động đạo đức, chuyên
 								nghiệp và sáng tạo, chúng tôi tạo ra môi trường làm việc ý nghĩa
 								cho cán bộ nhân viên, mang đến khách hàng các giá trị mới và
-								dịch vụ tuyệt hảo, hướng tới nâng cao giá trị, lợi ích cho Khách
-								hàng, đồng hành cùng Khách hàng hướng tới sự phát triển bền vững
+								dịch vụ tuyệt hảo, hướng tới nâng cao giá trị, lợi ích cho khách
+								hàng, đồng hành cùng khách hàng hướng tới sự phát triển bền vững
 								và mang lại trách nhiệm, giá trị của doanh nghiệp với cộng đồng.</p>
 
-							<p class="justify">Công ty TNHH Thiết bị Viễn thông ANSV được
+							<p class="justify">Công ty TNHH Thiết Bị Viễn Thông ANSV được
 								thành lập từ tháng 7 năm 1993 trong quan hệ hợp tác liên doanh
 								giữa Tập đoàn Alcatel (sau đó đổi tên thành tập đoàn
 								Alcatel-Lucent và nay là tập đoàn Nokia) với Tổng công ty Bưu
@@ -109,7 +109,7 @@
 								ANSV, sở hữu 51,2% trong ANSV cùng với VNPT là 48,8%.</p>
 
 							<p class="justify">Với hơn 28 năm kinh nghiệm, Công ty TNHH
-								Thiết bị Viễn thông ANSV là nhà tích hợp hệ thống, cung cấp sản
+								Thiết Bị Viễn Thông ANSV là nhà tích hợp hệ thống, cung cấp sản
 								phẩm/giải pháp và dịch vụ Công nghệ thông tin – Viễn thông hàng
 								đầu tại Việt Nam, có vị thế vững chắc ở thị trường trong nước và
 								trong khu vực.</p>

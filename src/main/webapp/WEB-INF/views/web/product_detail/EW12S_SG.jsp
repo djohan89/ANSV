@@ -238,13 +238,13 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>&nbsp;Chế độ hoạt động: AP, Repeater, Mesh (MRE-CAP)</li>
+									<li>&nbsp;Chế độ hoạt động: AP, Repeater, Mesh (MRE-CAP).</li>
 									<li>&nbsp;Hoạt động đồng thời trên 2 băng tần 2.4 GHz và 5
-										GHz</li>
+										GHz.</li>
 									<li>&nbsp;Tùy chỉnh giới hạn số lượng kết nối đồng thời
-										tối đa</li>
+										tối đa.</li>
 									<li>&nbsp;Tính năng Band Steering tự động chuyển đổi giữa
-										2 băng tần</li>
+										2 băng tần.</li>
 									<li>&nbsp;Tính năng Mesh:
 										<ul>
 											<li>&nbsp;Tự động kết nối các thiết bị AP</li>
@@ -262,15 +262,15 @@ img.xzoom:hover {
 
 								<ul>
 									<li>&nbsp;Chuyển tiếp và định tuyến lưu lượng: Bridging/
-										routing/ Static routing</li>
-									<li>&nbsp;DHCPv4 Server/ DHCP Client/ DHCPv6 server</li>
-									<li>&nbsp;PPPoE Client</li>
-									<li>&nbsp;VPN Passthrough (IPSEC, PPTP, L2TP)</li>
-									<li>&nbsp;VLAN</li>
-									<li>&nbsp;IPv4/IPv6 Dual Stack, IPv6 only</li>
-									<li>&nbsp;NAT</li>
-									<li>&nbsp;Port Forwarding</li>
-									<li>&nbsp;DNS/DDNS</li>
+										routing/ Static routing.</li>
+									<li>&nbsp;DHCPv4 Server/ DHCP Client/ DHCPv6 server.</li>
+									<li>&nbsp;PPPoE Client.</li>
+									<li>&nbsp;VPN Passthrough (IPSEC, PPTP, L2TP).</li>
+									<li>&nbsp;VLAN.</li>
+									<li>&nbsp;IPv4/IPv6 Dual Stack, IPv6 only.</li>
+									<li>&nbsp;NAT.</li>
+									<li>&nbsp;Port Forwarding.</li>
+									<li>&nbsp;DNS/DDNS.</li>
 								</ul>
 
 								<p>
@@ -278,10 +278,10 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>&nbsp;Bảo mật WPA-PSK, WPA2-PSK, WPAEAP và WPA2-EAP</li>
-									<li>&nbsp;Mã hóa WEP, TKIP và AES</li>
-									<li>&nbsp;MAC Filtering</li>
-									<li>&nbsp;Chế độ ẩn/hiện SSID</li>
+									<li>&nbsp;Bảo mật WPA-PSK, WPA2-PSK, WPAEAP và WPA2-EAP.</li>
+									<li>&nbsp;Mã hóa WEP, TKIP và AES.</li>
+									<li>&nbsp;MAC Filtering.</li>
+									<li>&nbsp;Chế độ ẩn/hiện SSID.</li>
 								</ul>
 
 								<p>
@@ -290,9 +290,9 @@ img.xzoom:hover {
 
 								<ul>
 									<li>&nbsp;Kết nối WAN không dây (hỗ trợ cả 2 băng tần
-										2.4GHz và 5GHz)</li>
-									<li>&nbsp;Kết nối Ethernet WAN</li>
-									<li>&nbsp;Kết nối WAN qua Repeater từ mạng WiFi sẵn có</li>
+										2.4GHz và 5GHz).</li>
+									<li>&nbsp;Kết nối Ethernet WAN.</li>
+									<li>&nbsp;Kết nối WAN qua Repeater từ mạng WiFi sẵn có.</li>
 								</ul>
 
 								<p>
@@ -300,13 +300,13 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>&nbsp;Quản lý qua WebGUI/CLI/Telnet</li>
-									<li>&nbsp;Quản lý từ xa qua Mobile App/Cloud</li>
+									<li>&nbsp;Quản lý qua WebGUI/CLI/Telnet.</li>
+									<li>&nbsp;Quản lý từ xa qua Mobile App/Cloud.</li>
 									<li>&nbsp;Thông tin thiết bị, thống kê kết nối, giám sát
-										người dùng</li>
-									<li>&nbsp;Chuẩn đoán lỗi: Ping, Trace, Log</li>
-									<li>&nbsp;Nâng cấp Firmware qua Web và Cloud</li>
-									<li>&nbsp;Sao lưu, phục hồi cấu hình</li>
+										người dùng.</li>
+									<li>&nbsp;Chuẩn đoán lỗi: Ping, Trace, Log.</li>
+									<li>&nbsp;Nâng cấp Firmware qua Web và Cloud.</li>
+									<li>&nbsp;Sao lưu, phục hồi cấu hình.</li>
 								</ul>
 
 								<p>
@@ -314,10 +314,10 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>&nbsp;Chặn truy cập trang web</li>
-									<li>&nbsp;Giới hạn thời gian truy cập internet</li>
-									<li>&nbsp;Bật tắt đèn LED theo lịch trình</li>
-									<li>&nbsp;Quản lý truy nhập theo nhóm</li>
+									<li>&nbsp;Chặn truy cập trang web.</li>
+									<li>&nbsp;Giới hạn thời gian truy cập internet.</li>
+									<li>&nbsp;Bật tắt đèn LED theo lịch trình.</li>
+									<li>&nbsp;Quản lý truy nhập theo nhóm.</li>
 								</ul>
 							</div>
 							<div id="specifications-prd"
@@ -377,7 +377,7 @@ img.xzoom:hover {
 												<td class="columnxx" colspan="2">Nguồn</td>
 											</tr>
 											<tr>
-												<td class="column1">Nguồn Phát</td>
+												<td class="column1">Nguồn phát</td>
 												<td class="column2">DC 12V - 1A</td>
 											</tr>
 											<tr>

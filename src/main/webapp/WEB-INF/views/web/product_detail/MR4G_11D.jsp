@@ -206,11 +206,11 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Lựa chọn băng tần WiFi hoạt động: 2.4GHz hoặc 5GHz</li>
-									<li>&nbsp;Cấu hình APN tự động, thủ công</li>
+									<li>&nbsp;Lựa chọn băng tần WiFi hoạt động: 2.4GHz hoặc 5GHz.</li>
+									<li>&nbsp;Cấu hình APN tự động, thủ công.</li>
 									<li>&nbsp;Đặt chế độ kết nối mạng di động: Tự động, thủ
-										công LTE/3G/2G</li>
-									<li>&nbsp;SMS (đọc/gửi/lưu trữ/xóa)</li>
+										công LTE/3G/2G.</li>
+									<li>&nbsp;SMS (đọc/gửi/lưu trữ/xóa).</li>
 								</ul>
 
 								<p>
@@ -218,12 +218,12 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Quản lý qua WebGUI</li>
+									<li>&nbsp;Quản lý qua WebGUI.</li>
 									<li>&nbsp;Thông tin thiết bị (Nhà mạng, IMEI, IMSI, chế độ
-										mạng, cường độ sóng)</li>
-									<li>&nbsp;Giám sát và đặt giới hạn tốc dộ, dữ liệu sử dụng</li>
-									<li>&nbsp;Nâng cấp firmware</li>
-									<li>&nbsp;Khóa SIM theo nhà mạng (tùy chọn)</li>
+										mạng, cường độ sóng).</li>
+									<li>&nbsp;Giám sát và đặt giới hạn tốc độ, dữ liệu sử dụng.</li>
+									<li>&nbsp;Nâng cấp firmware.</li>
+									<li>&nbsp;Khóa SIM theo nhà mạng (tùy chọn).</li>
 								</ul>
 
 								<p>
@@ -231,9 +231,9 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Kết nối LTE/3G/2G</li>
-									<li>&nbsp;Kết nối WAN qua Repeater từ mạng Wi-Fi sẵn có</li>
-									<li>&nbsp;Kết nối WAN qua mạng dây Ethernet</li>
+									<li>&nbsp;Kết nối LTE/3G/2G.</li>
+									<li>&nbsp;Kết nối WAN qua Repeater từ mạng Wi-Fi sẵn có.</li>
+									<li>&nbsp;Kết nối WAN qua mạng dây Ethernet.</li>
 								</ul>
 
 								<p>
@@ -241,12 +241,12 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>WEP 64/128bit</li>
-									<li>&nbsp;WPA-PSK, WPA2-PSK</li>
-									<li>&nbsp;Mã hóa TKIP và AES</li>
-									<li>&nbsp;MAC Filtering</li>
-									<li>&nbsp;Chế độ ẩn/hiện SSID</li>
-									<li>&nbsp;WPS</li>
+									<li>&nbsp;WEP 64/128bit.</li>
+									<li>&nbsp;WPA-PSK, WPA2-PSK.</li>
+									<li>&nbsp;Mã hóa TKIP và AES.</li>
+									<li>&nbsp;MAC Filtering.</li>
+									<li>&nbsp;Chế độ ẩn/hiện SSID.</li>
+									<li>&nbsp;WPS.</li>
 								</ul>
 
 								<p>
@@ -254,13 +254,13 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Bridge/Router</li>
-									<li>DHCP Server</li>
-									<li>Danh sách DHCP Client</li>
-									<li>IPv4</li>
-									<li>DNS</li>
-									<li>NAT</li>
-									<li>&nbsp;Firewall</li>
+									<li>&nbsp;Bridge/Router.</li>
+									<li>&nbsp;DHCP Server.</li>
+									<li>&nbsp;Danh sách DHCP Client.</li>
+									<li>&nbsp;IPv4.</li>
+									<li>&nbsp;DNS.</li>
+									<li>&nbsp;NAT.</li>
+									<li>&nbsp;Firewall.</li>
 								</ul>
 							</div>
 							<div id="specifications-prd"
@@ -332,7 +332,7 @@ img.xzoom:hover {
                                             <td class="column2">FDD-LTE Cat 4 (150Mbps/50Mbps)</td>
                                         </tr>
                                                                                                                                                             <tr>
-                                            <td class="column1">Ăng ten.</td>
+                                            <td class="column1">Ăng ten</td>
                                             <td class="column2">Ăng ten trong OMNI 1:2</td>
                                         </tr>
                                                                                                                                                                 <tr>
@@ -431,38 +431,25 @@ img.xzoom:hover {
 										}, 0);
 									});
 
-							$(window)
-									.scroll(
-											function() {
-												var topMenu = $(".products_menu_list"), scrollDistance = $(
-														window).scrollTop() + 160;
+							$(window).scroll(function() {
+								var topMenu = $(".products_menu_list"), scrollDistance = $(window).scrollTop() + 160;
 
-												// Show/hide menu on scroll
-												//if (scrollDistance >= 850) {
-												//		$('nav').fadeIn("fast");
-												//} else {
-												//		$('nav').fadeOut("fast");
-												//}
+								// Show/hide menu on scroll
+								//if (scrollDistance >= 850) {
+								//		$('nav').fadeIn("fast");
+								//} else {
+								//		$('nav').fadeOut("fast");
+								//}
 
-												// Assign active class to nav links while scolling
-												$('.page-section')
-														.each(
-																function(i) {
-																	if ($(this)
-																			.position().top <= scrollDistance) {
-																		$(
-																				'.navigation a.active')
-																				.removeClass(
-																						'active');
-																		$(
-																				'.navigation a')
-																				.eq(
-																						i)
-																				.addClass(
-																						'active');
-																	}
-																});
-											}).scroll();
+								// Assign active class to nav links while scolling
+								$('.page-section')
+									.each(function(i) {
+										if ($(this).position().top <= scrollDistance) {
+											$('.navigation a.active').removeClass('active');
+											$('.navigation a').eq(i).addClass('active');
+										}
+									});
+							}).scroll();
 							// // Bind to scroll
 
 						});

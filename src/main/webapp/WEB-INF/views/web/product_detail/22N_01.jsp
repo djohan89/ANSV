@@ -213,11 +213,11 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Chế độ hoạt động: LTE modem, Router, AP</li>
-									<li>Cấu hình APN tự động, thủ công</li>
+									<li>Chế độ hoạt động: LTE modem, Router, AP.</li>
+									<li>Cấu hình APN tự động, thủ công.</li>
 									<li>Lựa chọn chế độ kết nối mạng di động: Tự động, thủ
-										công LTE/3G/2G</li>
-									<li>SMS (đọc/gửi/lưu trữ/xóa)</li>
+										công LTE/3G/2G.</li>
+									<li>SMS (đọc/gửi/lưu trữ/xóa).</li>
 								</ul>
 
 								<p>
@@ -225,14 +225,14 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Quản lý qua WebGUI/Telnet/SSH</li>
+									<li>Quản lý qua WebGUI/Telnet/SSH.</li>
 									<li>Thông tin thiết bị (Nhà mạng, IMEI, IMSI, chế độ mạng,
-										MAC, RSSI, BER)</li>
-									<li>Thông tin kết nối (tốc độ, dữ liệu sử dụng)</li>
-									<li>Chẩn đoán lỗi: Ping, Trace, Log</li>
-									<li>Nâng cấp FW: qua web, từ xa</li>
-									<li>Sao lưu, phục hồi cấu hình</li>
-									<li>Khóa SIM theo nhà mạng (MNC, MCC)</li>
+										MAC, RSSI, BER).</li>
+									<li>Thông tin kết nối (tốc độ, dữ liệu sử dụng).</li>
+									<li>Chẩn đoán lỗi: Ping, Trace, Log.</li>
+									<li>Nâng cấp FW: qua web, từ xa.</li>
+									<li>Sao lưu, phục hồi cấu hình.</li>
+									<li>Khóa SIM theo nhà mạng (MNC, MCC).</li>
 								</ul>
 
 								<p>
@@ -240,9 +240,9 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Kết nối LTE/3G/2G</li>
-									<li>Kết nối WAN qua Repeater từ mạng Wi-Fi sẵn có</li>
-									<li>Kết nối WAN qua mạng dây Ethernet</li>
+									<li>Kết nối LTE/3G/2G.</li>
+									<li>Kết nối WAN qua Repeater từ mạng Wi-Fi sẵn có.</li>
+									<li>Kết nối WAN qua mạng dây Ethernet.</li>
 								</ul>
 
 								<p>
@@ -250,12 +250,12 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Bảo mật WEP, WPA-PSK, WPA2-PSK</li>
-									<li>Mã hóa WEP, TKIP và AES</li>
-									<li>MAC Filtering</li>
-									<li>Chế độ ẩn/hiện SSID</li>
-									<li>SPI Firewall</li>
-									<li>WPS</li>
+									<li>Bảo mật WEP, WPA-PSK, WPA2-PSK.</li>
+									<li>Mã hóa WEP, TKIP và AES.</li>
+									<li>MAC Filtering.</li>
+									<li>Chế độ ẩn/hiện SSID.</li>
+									<li>SPI Firewall.</li>
+									<li>WPS.</li>
 								</ul>
 
 								<p>
@@ -264,14 +264,14 @@ img.xzoom:hover {
 
 								<ul>
 									<li>Chuyển tiếp và định tuyến lưu lượng: Bridging/định
-										tuyến động/định tuyến tĩnh</li>
-									<li>DHCPv4 (Server, danh sách Client)</li>
-									<li>PPPoE Client</li>
-									<li>VPN Pass through (IPSEC)</li>
-									<li>VLAN</li>
-									<li>IPv4</li>
-									<li>NAT &amp; Port Forwarding</li>
-									<li>DNS/DDNS</li>
+										tuyến động/định tuyến tĩnh.</li>
+									<li>DHCPv4 (Server, danh sách Client).</li>
+									<li>PPPoE Client.</li>
+									<li>VPN Pass through (IPSEC).</li>
+									<li>VLAN.</li>
+									<li>IPv4.</li>
+									<li>NAT &amp; Port Forwarding.</li>
+									<li>DNS/DDNS.</li>
 								</ul>
 							</div>
 							<div id="specifications-prd"
@@ -308,7 +308,7 @@ img.xzoom:hover {
                                             <td class="column2">2.4GHz ÷ 2.4835GHz</td>
                                         </tr>
                                                                                                                                                             <tr>
-                                            <td class="column1">Tốc độ.</td>
+                                            <td class="column1">Tốc độ</td>
                                             <td class="column2">300Mbps</td>
                                         </tr>
                                                                                                                                                             <tr>
@@ -365,7 +365,7 @@ img.xzoom:hover {
                                                 <td class="columnxx" colspan="2">Nguồn</td>
                                             </tr>
                                                                                                                                                             <tr>
-                                            <td class="column1">Nguồn.</td>
+                                            <td class="column1">Nguồn</td>
                                             <td class="column2">12V - 1.5A</td>
                                         </tr>
                                                                                                                                                             <tr>

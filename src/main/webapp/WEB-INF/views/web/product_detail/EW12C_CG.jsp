@@ -238,11 +238,11 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Chế độ hoạt động: AP, Repeater, Mesh (MRE-CAP)</li>
-									<li>Hoạt động đồng thời trên 2 băng tần 2.4 GHz và 5 GHz</li>
-									<li>Tùy chỉnh giới hạn số lượng kết nối đồng thời tối đa</li>
+									<li>Chế độ hoạt động: AP, Repeater, Mesh (MRE-CAP).</li>
+									<li>Hoạt động đồng thời trên 2 băng tần 2.4 GHz và 5 GHz.</li>
+									<li>Tùy chỉnh giới hạn số lượng kết nối đồng thời tối đa.</li>
 									<li>Tính năng Band Steering tự động chuyển đổi giữa 2 băng
-										tần</li>
+										tần.</li>
 									<li>Tính năng Mesh:
 										<ul>
 											<li>&nbsp;Tự động kết nối các thiết bị AP</li>
@@ -260,15 +260,15 @@ img.xzoom:hover {
 
 								<ul>
 									<li>Chuyển tiếp và định tuyến lưu lượng: Bridging/
-										Routing/ Static routing</li>
-									<li>DHCPv4 Server/ DHCP Client/ DHCPv6 server</li>
-									<li>PPPoE Client</li>
-									<li>VPN Passthrough (IPSEC, PPTP, L2TP)</li>
-									<li>VLAN</li>
-									<li>IPv4/IPv6 Dual Stack, IPv6 only</li>
-									<li>NAT</li>
-									<li>Port Forwarding</li>
-									<li>DNS/DDNS</li>
+										Routing/ Static routing.</li>
+									<li>DHCPv4 Server/ DHCP Client/ DHCPv6 server.</li>
+									<li>PPPoE Client.</li>
+									<li>VPN Passthrough (IPSEC, PPTP, L2TP).</li>
+									<li>VLAN.</li>
+									<li>IPv4/IPv6 Dual Stack, IPv6 only.</li>
+									<li>NAT.</li>
+									<li>Port Forwarding.</li>
+									<li>DNS/DDNS.</li>
 								</ul>
 
 								<p>
@@ -276,10 +276,10 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Bảo mật WPA-PSK, WPA2-PSK, WPAEAP và WPA2-EAP</li>
-									<li>&nbsp;Mã hóa WEP, TKIP và AES</li>
-									<li>&nbsp;MAC Filtering</li>
-									<li>&nbsp;Chế độ ẩn/hiện SSID</li>
+									<li>Bảo mật WPA-PSK, WPA2-PSK, WPAEAP và WPA2-EAP.</li>
+									<li>&nbsp;Mã hóa WEP, TKIP và AES.</li>
+									<li>&nbsp;MAC Filtering.</li>
+									<li>&nbsp;Chế độ ẩn/hiện SSID.</li>
 								</ul>
 
 								<p>
@@ -287,13 +287,13 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>&nbsp;Quản lý qua WebGUI/CLI/Telnet</li>
-									<li>&nbsp;Quản lý từ xa qua Mobile App/Cloud</li>
+									<li>&nbsp;Quản lý qua WebGUI/CLI/Telnet.</li>
+									<li>&nbsp;Quản lý từ xa qua Mobile App/Cloud.</li>
 									<li>&nbsp;Thông tin thiết bị, thống kê kết nối, giám sát
-										người dùng</li>
-									<li>&nbsp;Chuẩn đoán lỗi: Ping, Trace, Log</li>
-									<li>&nbsp;Nâng cấp firmware qua Web và Cloud</li>
-									<li>&nbsp;Sao lưu, phục hồi cấu hình</li>
+										người dùng.</li>
+									<li>&nbsp;Chuẩn đoán lỗi: Ping, Trace, Log.</li>
+									<li>&nbsp;Nâng cấp firmware qua Web và Cloud.</li>
+									<li>&nbsp;Sao lưu, phục hồi cấu hình.</li>
 								</ul>
 
 								<p>
@@ -302,9 +302,9 @@ img.xzoom:hover {
 
 								<ul>
 									<li>&nbsp;Kết nối WAN không dây (hỗ trợ cả 2 băng tần
-										2.4GHz và 5GHz)</li>
-									<li>&nbsp;Kết nối Ethernet WAN</li>
-									<li>&nbsp;Kết nối WAN qua Repeater từ mạng WiFi sẵn có</li>
+										2.4GHz và 5GHz).</li>
+									<li>&nbsp;Kết nối Ethernet WAN.</li>
+									<li>&nbsp;Kết nối WAN qua Repeater từ mạng WiFi sẵn có.</li>
 								</ul>
 
 								<p>
@@ -312,10 +312,10 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>&nbsp;Chặn truy cập trang web</li>
-									<li>&nbsp;Giới hạn thời gian truy cập internet</li>
-									<li>&nbsp;Bật tắt đèn LED theo lịch trình</li>
-									<li>&nbsp;Quản lý truy nhập theo nhóm</li>
+									<li>&nbsp;Chặn truy cập trang web.</li>
+									<li>&nbsp;Giới hạn thời gian truy cập internet.</li>
+									<li>&nbsp;Bật tắt đèn LED theo lịch trình.</li>
+									<li>&nbsp;Quản lý truy nhập theo nhóm.</li>
 								</ul>
 							</div>
 							<div id="specifications-prd"

@@ -132,11 +132,11 @@ img.xzoom:hover {
 								<div id="key-features-prd" class="col-md-12 pt-5 prd-detail-info page-section">
 									<h2 class="title">Tính năng chính:</h2>
 									<ul>
-										<li>Độ phân giải cao (full HD) kết hợp với khả năng nhìn ban đêm mang đến chất lượng hình ảnh rõ nét thậm chí ở những vị trí không có ánh sáng</li>
-										<li>Phát hiện chuyển động và cảnh báo chính xác, giúp gia chủ an tâm khi vắng nhà</li>
-										<li>Hỗ trợ đàm thoại 2 chiều</li>
-										<li>Hỗ trợ lưu trữ video, hình ảnh trên cloud, thẻ nhớ và điện thoại di động</li>
-										<li>Thiết kế nhiều lựa chọn kết nối mạng: Thiết bị hỗ trợ lựa chọn kết nối mạng Wifi và Ethernet để đáp ứng mọi mô hình triển khai</li>
+										<li>Độ phân giải cao (full HD) kết hợp với khả năng nhìn ban đêm mang đến chất lượng hình ảnh rõ nét thậm chí ở những vị trí không có ánh sáng.</li>
+										<li>Phát hiện chuyển động và cảnh báo chính xác, giúp gia chủ an tâm khi vắng nhà.</li>
+										<li>Hỗ trợ đàm thoại 2 chiều.</li>
+										<li>Hỗ trợ lưu trữ video, hình ảnh trên cloud, thẻ nhớ và điện thoại di động.</li>
+										<li>Thiết kế nhiều lựa chọn kết nối mạng: Thiết bị hỗ trợ lựa chọn kết nối mạng Wifi và Ethernet để đáp ứng mọi mô hình triển khai.</li>
 									</ul>
 								</div>
 								<div id="specifications-prd" class="col-md-12 pt-5 prd-detail-info table-responsive page-section">
@@ -233,7 +233,7 @@ img.xzoom:hover {
 		                                                <td class="columnxx" colspan="2">Audio</td>
 		                                            </tr>
 		                                                                                                                                                            <tr>
-		                                            <td class="column1">Chuẩn nén.</td>
+		                                            <td class="column1">Chuẩn nén</td>
 		                                            <td class="column2">G.711A/G.711U/ADPCM</td>
 		                                        </tr>
 		                                                                                                                                                            <tr>

@@ -139,15 +139,15 @@ img.xzoom:hover {
 								<ul>
 									<li>Độ phân giải cao (full HD) kết hợp với khả năng nhìn
 										ban đêm mang đến chất lượng hình ảnh rõ nét thậm chí ở những
-										vị trí không có ánh sáng</li>
+										vị trí không có ánh sáng.</li>
 									<li>Phát hiện chuyển động và cảnh báo chính xác, giúp gia
-										chủ an tâm khi vắng nhà</li>
-									<li>Hỗ trợ đàm thoại 2 chiều</li>
+										chủ an tâm khi vắng nhà.</li>
+									<li>Hỗ trợ đàm thoại 2 chiều.</li>
 									<li>Hỗ trợ lưu trữ video, hình ảnh trên cloud, thẻ nhớ và
-										điện thoại di động</li>
+										điện thoại di động.</li>
 									<li>Thiết kế nhiều lựa chọn kết nối mạng: Thiết bị hỗ trợ
 										lựa chọn kết nối mạng Wifi và Ethernet để đáp ứng mọi mô hình
-										triển khai</li>
+										triển khai.</li>
 								</ul>
 							</div>
 							<div id="specifications-prd"
@@ -233,7 +233,7 @@ img.xzoom:hover {
 												<td class="columnxx" colspan="2">Audio</td>
 											</tr>
 											<tr>
-												<td class="column1">Chuẩn nén.</td>
+												<td class="column1">Chuẩn nén</td>
 												<td class="column2">G.711A/G.711U/ADPCM</td>
 											</tr>
 											<tr>

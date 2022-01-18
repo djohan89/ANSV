@@ -162,13 +162,13 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>4 cổng LAN tốc độ GE</li>
+									<li>4 cổng LAN tốc độ GE.</li>
 									<li>Wi-Fi chuẩn a/b/g/n/ac, hỗ trợ 2 băng tần 2.4 GHz và
-										5GHz</li>
-									<li>Tích hợp 2 cổng thoại hỗ trợ chức năng VoIP</li>
-									<li>Tương thích với nhiều chủng loại OLT khác nhau</li>
+										5GHz.</li>
+									<li>Tích hợp 2 cổng thoại hỗ trợ chức năng VoIP.</li>
+									<li>Tương thích với nhiều chủng loại OLT khác nhau.</li>
 									<li>Quản lý bởi hệ thống ONE Telco Platform của VNPT
-										Technology</li>
+										Technology.</li>
 								</ul>
 							</div>
 							<div id="key-features-prd"
@@ -186,11 +186,11 @@ img.xzoom:hover {
 											<li>ITU-T G.984.3</li>
 										</ul>
 									</li>
-									<li>Hỗ trợ lên đến 32 T-CONT/256GEM port</li>
-									<li>Hỗ trợ 08 queue cho mỗi T-CONT</li>
+									<li>Hỗ trợ lên đến 32 T-CONT/256GEM port.</li>
+									<li>Hỗ trợ 08 queue cho mỗi T-CONT.</li>
 									<li>Hỗ trợ hoạt động, quản lý và bảo trì lớp vật lý
-										(PLOAM)</li>
-									<li>Kích hoạt, vô hiệu hóa và đăng ký lại ONT</li>
+										(PLOAM).</li>
+									<li>Kích hoạt, vô hiệu hóa và đăng ký lại ONT.</li>
 								</ul>
 
 								<p>
@@ -198,16 +198,16 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Tương tích SIP (RFC3261)</li>
-									<li>Thuật toán mã hóa DTMF (RFC2833)</li>
+									<li>Tương thích SIP (RFC3261).</li>
+									<li>Thuật toán mã hóa DTMF (RFC2833).</li>
 									<li>Hỗ trợ in-band DTMF tone sending/receiving và out-band
-										DTMF signaling with RTP</li>
+										DTMF signaling with RTP.</li>
 									<li>Hỗ trợ các chuẩn mã hóa: G.711a/µ, G.729, và thuật
-										toán mã hóa/giải mã G.722</li>
+										toán mã hóa/giải mã G.722.</li>
 									<li>Hỗ trợ chức năng xử lý tiếng nói: Voice Activity
-										Detectors (VAD) và Comfort Noise Generation (CNG)</li>
+										Detectors (VAD) và Comfort Noise Generation (CNG).</li>
 									<li>Tính năng nâng cao: Hiển thị caller ID, cuộc gọi chờ,
-										chuyển tiếp cuộc gọi</li>
+										chuyển tiếp cuộc gọi.</li>
 								</ul>
 
 								<p>
@@ -215,10 +215,10 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Giao diện 10/100/1000BASE-T</li>
-									<li>Tự động xác định tốc độ và chế độ hoạt động</li>
-									<li>Hỗ trợ tính năng VLAN tag/ untag trên cổng Ethernet</li>
-									<li>Hỗ trợ IGMP snooping v2, 3</li>
+									<li>Giao diện 10/100/1000BASE-T.</li>
+									<li>Tự động xác định tốc độ và chế độ hoạt động.</li>
+									<li>Hỗ trợ tính năng VLAN tag/ untag trên cổng Ethernet.</li>
+									<li>Hỗ trợ IGMP snooping v2, 3.</li>
 								</ul>
 
 								<p>
@@ -226,8 +226,8 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Wi-Fi 802.11ac hỗ trợ băng thông lên đến 867 Mbps</li>
-									<li>Chức năng tắt bật Wi-Fi với nút Wi-Fi ON/OFF</li>
+									<li>Wi-Fi 802.11ac hỗ trợ băng thông lên đến 867 Mbps.</li>
+									<li>Chức năng tắt bật Wi-Fi với nút Wi-Fi ON/OFF.</li>
 								</ul>
 
 								<p>
@@ -235,10 +235,10 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>NAT, SPI Firewall</li>
-									<li>MAC / IP / Packet / Application / URL Filtering</li>
-									<li>Chống tấn công từ chối dịch vụ (DoS), SYN Flooding</li>
-									<li>Chữ ký số firmware</li>
+									<li>NAT, SPI Firewall.</li>
+									<li>MAC / IP / Packet / Application / URL Filtering.</li>
+									<li>Chống tấn công từ chối dịch vụ (DoS), SYN Flooding.</li>
+									<li>Chữ ký số firmware.</li>
 								</ul>
 
 								<p>
@@ -247,10 +247,10 @@ img.xzoom:hover {
 
 								<ul>
 									<li>Quản lý cấu hình OMCI (bao gồm cấu hình GEM port,
-										T-CONT VLAN)</li>
+										T-CONT VLAN).</li>
 									<li>Quản lý truy vấn OMCI (thông tin thiết bị và trạng
-										thái cổng Ethernet)</li>
-									<li>Cảnh báo OMCI</li>
+										thái cổng Ethernet).</li>
+									<li>Cảnh báo OMCI.</li>
 								</ul>
 
 								<p>
@@ -258,12 +258,12 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Cấu hình dịch vụ và nâng cấp phần mềm qua Website</li>
-									<li>Quản lý thiết bị và cập nhật phần mềm thông qua OMCI</li>
-									<li>Truy xuất thông tin thu phát quang của ONT</li>
-									<li>Báo cáo cảnh báo Dying_Gasp khi ONT bị tắt nguồn</li>
+									<li>Cấu hình dịch vụ và nâng cấp phần mềm qua Website.</li>
+									<li>Quản lý thiết bị và cập nhật phần mềm thông qua OMCI.</li>
+									<li>Truy xuất thông tin thu phát quang của ONT.</li>
+									<li>Báo cáo cảnh báo Dying_Gasp khi ONT bị tắt nguồn.</li>
 									<li>Quản lý từ xa bằng hệ thống ONE Telco Platform thông
-										qua giao thức TR-069</li>
+										qua giao thức TR-069.</li>
 								</ul>
 
 								<p>
@@ -272,15 +272,15 @@ img.xzoom:hover {
 
 								<ul>
 									<li>Thông tin hệ thống: phiên bản phần mềm, trạng thái kết
-										nối và thống kê gói tin</li>
+										nối và thống kê gói tin.</li>
 									<li>Kết nối WAN: PPPoE, Dynamic and Static IPoE, Bridge và
-										hỗ trợ nhiều kết nối đồng thời</li>
+										hỗ trợ nhiều kết nối đồng thời.</li>
 									<li>Giao thức mạng và các tính năng cao cấp: Hỗ trợ IPv4
 										và IPv6, DHCP, DHCP relay, DHCPv6, NAT, DLNA Server, USB
 										Storage, Printer Server, Static Routing, RIP v1/v2, VPN (PPTP,
 										L2TP, IPSec) Pass-through, Interface Grouping, VLAN tag/untag
 										trên cổng Ethernet , 802.1Q VLAN, DNS Relay, DDNS, IGMP
-										Multicast, server ảo, DMZ, ACL(Access Control List), UPnP</li>
+										Multicast, server ảo, DMZ, ACL(Access Control List), UPnP.</li>
 								</ul>
 							</div>
 							<div id="specifications-prd"
@@ -288,7 +288,7 @@ img.xzoom:hover {
 								<h2 class="title">Thông số kỹ thuật:</h2>
 								<div class="table table-striped table-hover ">
 									<table style="width: 100%">
-										<tbody>
+										<tbody> 
                                     
                                                                                                                         <tr>
                                                 <td class="columnxx" colspan="2">GPON</td>
@@ -345,7 +345,7 @@ img.xzoom:hover {
                                             <td class="column2">MIMO 2x2</td>
                                         </tr>
                                                                                                                                                             <tr>
-                                            <td class="column1">Băng Thông</td>
+                                            <td class="column1">Băng thông</td>
                                             <td class="column2">802.11ac: Lên đến 867Mbps <br>802.11n: Lên đến 300Mbps</td>
                                         </tr>
                                                                                                                                                             <tr>
@@ -399,7 +399,7 @@ img.xzoom:hover {
                                         </tr>
                                                                                                                                                             <tr>
                                             <td class="column1">Độ ẩm hoạt động</td>
-                                            <td class="column2">5% ÷ 90% Không ngưng kết</td>
+                                            <td class="column2">5% ÷ 90% không ngưng kết</td>
                                         </tr>
                                     </tbody>
 									</table>

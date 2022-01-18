@@ -95,12 +95,12 @@
 							<b>3. Hỗ trợ kỹ thuật</b>
 						</h3>
 						<div class="">
-							<p class="justify">Trung tâm hỗ trợ kỹ thuật, vận hành và
-								khai thác hệ thống (TASC) được thiết lập theo mô hình của
-								Welcome Centre Alcatel (Nokia) tại Việt Nam, đảm bảo hệ thống
-								vận hành thông suốt, không gián đoạn, giảm thiểu tối đa các tổn
-								thất khi hệ thống của khách hàng gặp sự cố, tiếp nhận các yêu
-								cầu hỗ trợ từ phía khách hàng 24/7 với các hình thức:</p>
+							<p class="justify">Trung tâm hỗ trợ Kỹ thuật và Vận hành Khai
+								thác Hệ thống (TASC) được thiết lập theo mô hình của Welcome
+								Centre Alcatel (Nokia) tại Việt Nam, đảm bảo hệ thống vận hành
+								thông suốt, không gián đoạn, giảm thiểu tối đa các tổn thất khi
+								hệ thống của khách hàng gặp sự cố, tiếp nhận các yêu cầu hỗ trợ
+								từ phía khách hàng 24/7 với các hình thức:</p>
 							<p>&emsp;• &nbsp; Hỗ trợ qua web trực tuyến</p>
 							<p>&emsp;• &nbsp; Hỗ trợ qua điện thoại</p>
 							<p>&emsp;• &nbsp; Hỗ trợ tại hiện trường</p>
