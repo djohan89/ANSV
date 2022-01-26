@@ -167,13 +167,13 @@ img.xzoom:hover {
 									<strong>ĐẶC ĐIỂM NỔI BẬT</strong>
 								</p>
 								<ul>
-									<li>4 cổng LAN tốc độ GE</li>
+									<li>4 cổng LAN tốc độ GE.</li>
 									<li>Wi-Fi chuẩn a/b/g/n/ac hỗ trợ 2 băng tần 2.4GHz và
-										5GHz</li>
-									<li>Hỗ trợ đồng thời IPv4 và IPv6</li>
-									<li>Tương thích với nhiều chủng loại OLT khác nhau</li>
+										5GHz.</li>
+									<li>Hỗ trợ đồng thời IPv4 và IPv6.</li>
+									<li>Tương thích với nhiều chủng loại OLT khác nhau.</li>
 									<li>Quản lý bởi hệ thống ONE Telco Platform của VNPT
-										Technology</li>
+										Technology.</li>
 								</ul>
 							</div>
 							<div id="key-features-prd"
@@ -191,12 +191,12 @@ img.xzoom:hover {
 											<li>ITU-T G.984.3</li>
 										</ul>
 									</li>
-									<li>Hỗ trợ lên đến 32 T-CONT/256GEM port</li>
-									<li>Hỗ trợ 08 queue cho mỗi T-CONT</li>
+									<li>Hỗ trợ lên đến 32 T-CONT/256GEM port.</li>
+									<li>Hỗ trợ 08 queue cho mỗi T-CONT.</li>
 									<li>Hỗ trợ hoạt động, quản lý và bảo trì lớp vật lý
 										(Physical Layer Operations, Administration and Maintenance -
-										PLOAM)</li>
-									<li>Kích hoạt, vô hiệu hóa và đăng ký lại ONT</li>
+										PLOAM).</li>
+									<li>Kích hoạt, vô hiệu hóa và đăng ký lại ONT.</li>
 								</ul>
 
 								<p>
@@ -204,9 +204,9 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>NAT, SPI Firewall</li>
-									<li>MAC / IP / Packet / Application / URL Filtering</li>
-									<li>Chống tất công từ chối dịch vụ (DoS), SYN Flooding</li>
+									<li>NAT, SPI Firewall.</li>
+									<li>MAC / IP / Packet / Application / URL Filtering.</li>
+									<li>Chống tấn công từ chối dịch vụ (DoS), SYN Flooding.</li>
 								</ul>
 
 								<p>
@@ -215,10 +215,10 @@ img.xzoom:hover {
 
 								<ul>
 									<li>Quản lý cấu hình OMCI (bao gồm cấu hình GEM port,
-										T-CONT VLAN)</li>
+										T-CONT VLAN).</li>
 									<li>Quản lý truy vấn OMCI (thông tin thiết bị và trạng
-										thái cổng Ethernet)</li>
-									<li>Cảnh báo OMCI</li>
+										thái cổng Ethernet).</li>
+									<li>Cảnh báo OMCI.</li>
 								</ul>
 
 								<p>
@@ -226,12 +226,12 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Giao diện 10/100/1000BASE-T</li>
-									<li>Tự động xác định tốc độ và chế độ hoạt động</li>
-									<li>Hỗ trợ tính năng VLAN tag / untag</li>
+									<li>Giao diện 10/100/1000BASE-T.</li>
+									<li>Tự động xác định tốc độ và chế độ hoạt động.</li>
+									<li>Hỗ trợ tính năng VLAN tag / untag.</li>
 									<li>Hỗ trợ tính năng VLAN stacking (Q-in-Q) và VLAN
-										translation</li>
-									<li>Hỗ trợ IGMP snooping v2, 3</li>
+										translation.</li>
+									<li>Hỗ trợ IGMP snooping v2, 3.</li>
 								</ul>
 
 								<p>
@@ -239,8 +239,8 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Wi-Fi IEEE 802.11ac hỗ trợ băng thông lên đến 867 Mbps</li>
-									<li>Chức năng tắt bật Wi-Fi dễ dàng với nút Wi-Fi ON/OFF</li>
+									<li>Wi-Fi IEEE 802.11ac hỗ trợ băng thông lên đến 867 Mbps.</li>
+									<li>Chức năng tắt bật Wi-Fi dễ dàng với nút Wi-Fi ON/OFF.</li>
 								</ul>
 
 								<p>
@@ -248,12 +248,12 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Cấu hình dịch vụ và nâng cấp phần mềm qua Website</li>
-									<li>Quản lý thiết bị và cập nhật phần mềm thông qua OMCI</li>
-									<li>Truy xuất thông tin thu phát quang của ONT</li>
-									<li>Báo cáo cảnh báo Dying_Gasp khi ONT bị tắt nguồn</li>
+									<li>Cấu hình dịch vụ và nâng cấp phần mềm qua Website.</li>
+									<li>Quản lý thiết bị và cập nhật phần mềm thông qua OMCI.</li>
+									<li>Truy xuất thông tin thu phát quang của ONT.</li>
+									<li>Báo cáo cảnh báo Dying_Gasp khi ONT bị tắt nguồn.</li>
 									<li>Quản lý từ xa bằng hệ thống ONE Telco Platform thông
-										qua giao thức TR-069</li>
+										qua giao thức TR-069.</li>
 								</ul>
 
 								<p>
@@ -261,10 +261,10 @@ img.xzoom:hover {
 								</p>
 
 								<ul>
-									<li>Thông tin hệ thống: phiên bản phần mềm, trạng thái kết
-										nối và thống kê gói tin</li>
+									<li>Thông tin hệ thống: Phiên bản phần mềm, trạng thái kết
+										nối và thống kê gói tin.</li>
 									<li>Kết nối WAN: PPPoE, Dynamic and Static IPoE, Bridge và
-										hỗ trợ nhiều kết nối đồng thời</li>
+										hỗ trợ nhiều kết nối đồng thời.</li>
 									<li style="text-align: justify">Giao thức mạng và các tính
 										năng cao cấp: Hỗ trợ IPv4 and IPv6, DHCP (Dynamic Host
 										Configuration Protocol), DHCP relay, DHCPv6, NAT (Network
@@ -274,7 +274,7 @@ img.xzoom:hover {
 										Relay, DDNS, IGMP snooping v2/v3, Virtual server, DMZ,
 										ACL(Access Control List), UPnP, NAT and SPI Firewall, MAC / IP
 										/ URL Filtering, Denial of Service (DoS), QoS, (802.1p),
-										Support 32 T-CONT/256 GEM</li>
+										Support 32 T-CONT/256 GEM.</li>
 								</ul>
 							</div>
 							<div id="specifications-prd"

@@ -15,18 +15,20 @@
 }
 </style>
 </head>
-<body id="about-section" data-spy="scroll" data-target="#myScrollspy" data-offset="20">
-	 <section id="about-content">
+<body id="about-section" data-spy="scroll" data-target="#myScrollspy"
+	data-offset="20">
+	<section id="about-content">
 		<div id="particles-js" class="particles-js particles-home-section-2"></div>
-	    <div class="container">
-	    	<div class="row align-self-center text-center">
+		<div class="container">
+			<div class="row align-self-center text-center">
 				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
-					<h1 class="text-uppercase header_text">Cơ cấu tổ chức và nhân sự</h1>
+					<h1 class="text-uppercase header_text">Cơ cấu tổ chức và nhân
+						sự</h1>
 				</div>
 			</div>
-	    </div>
-	</section> 
-	
+		</div>
+	</section>
+
 	<!-- <section id="home-section-2" class="home-section-2 posr">
 	    <div id="particles-js" class="particles-js particles-home-section-2"></div>
 	    <div class="container">
@@ -37,7 +39,7 @@
 			</div>
 	    </div>
 	</section> -->
-	
+
 	<section>
 		<div class="container">
 			<div class="row">
@@ -75,16 +77,16 @@
 							<h3 class="mb-5 title">
 								<strong>Nhân sự</strong>
 							</h3>
-							<p class="justify">ANSV sở hữu đội ngũ nhân sự chủ lực là các kỹ sư công nghệ
-								thông tin tin đáp ứng xu thế công nghệ 4.0 với kinh nghiệm và
-								tay nghề cao, có đam mê,nhiệt huyết và luôn làm việc với tinh
-								thần:"Tốc chiến tốc thắng". Chúng tôi tập trung vào nâng cao
-								năng lực chuên môn cho đội ngũ nhân sự, ký sư của mình bên cạnh
-								đó, chúng tôi luôn liên kết chặt chẽ và tìm kiếm nguồn nhân lực
-								kế cận từ các trường đại học công nghệ hàng đầu: Đại học Bách
-								Khoa, Học viện Công Nghệ Bưu Chính Viễn Thông, Đại học Quốc
-								Gia... nhằm đảm bảo công ty luôn có nguồn nhân lực ổn định, đạp
-								ứng nhu cầu phát triển của thời đại.</p>
+							<p class="justify">ANSV sở hữu đội ngũ nhân sự chủ lực là các
+								kỹ sư công nghệ thông tin đáp ứng xu thế công nghệ 4.0 với kinh
+								nghiệm và tay nghề cao, có đam mê, nhiệt huyết và luôn làm việc
+								với tinh thần: "Tốc chiến tốc thắng". Chúng tôi tập trung vào
+								nâng cao năng lực chuyên môn cho đội ngũ nhân sự, kỹ sư của mình
+								bên cạnh đó, chúng tôi luôn liên kết chặt chẽ và tìm kiếm nguồn
+								nhân lực kế cận từ các trường đại học công nghệ hàng đầu: Đại
+								học Bách Khoa, Học viện Công Nghệ Bưu Chính Viễn Thông, Đại học
+								Quốc Gia... nhằm đảm bảo công ty luôn có nguồn nhân lực ổn định,
+								đáp ứng nhu cầu phát triển của thời đại.</p>
 							<div class="text-center">
 								<figure class="image">
 									<img alt=""

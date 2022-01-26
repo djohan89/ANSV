@@ -23,7 +23,7 @@
 						<div class="col-md-6">
 							<p>
 						<i class="icofont-location-pin"></i> &ensp; Số 10, Phổ Quang,  <br>
-						Quận Tân Bình,TP.Hồ Chí Minh <br> <br> <i class="icofont-fax"></i>&ensp;<strong>Fax:</strong>
+						Quận Tân Bình, TP.Hồ Chí Minh <br> <br> <i class="icofont-fax"></i>&ensp;<strong>Fax:</strong>
 						(+84) 28 3997 4515 <br> <i class="icofont-phone"></i>&ensp; <strong>Phone:</strong>
 						(+84) 28 3842 2888<br> <!-- <i class='bx bx-mail-send'></i>&ensp;  <strong>Email:</strong>
 						info@example.com<br>  -->

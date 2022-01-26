@@ -67,7 +67,7 @@
 								<h5>Cơ sở phía Nam</h5>
 								<p>
 									<i class="icofont-location-pin"></i> &ensp;<strong>Địa chỉ:</strong> Số 10, Phổ
-									Quang, Quận Tân Bình,TP.Hồ Chí Minh
+									Quang, Quận Tân Bình, TP.Hồ Chí Minh
 								</p>
 								<p>
 									<i class="icofont-phone"></i>&ensp;<strong>Tel:</strong> (+84) 28 3842 2888

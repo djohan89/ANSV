@@ -73,7 +73,7 @@
 				<div class="row pt-5 ">
 					<div class="col-md-7 mb-4" data-aos="zoom-out-up">
 						<p style="font-weight: 600;">• &nbsp; Hệ thống Collection cho công ty tài chính Home Credit Việt Nam (4 triệu USD).</p>
-						<p>• &nbsp; Dự án IP CONTACT CENTER  (VNPT Hanoi – 2 triệu USD).</p>
+						<p>• &nbsp; Dự án IP CONTACT CENTER  (VNPT Hà Nội – 2 triệu USD).</p>
 						<p>• &nbsp; Hệ thống mạng và tổng đài IP cho dự án xây dựng Nhà Quốc hội (2 triệu USD).</p>
 						<p>• &nbsp; Thiết kế, lắp đặt hệ thống IP Contact Center (VNPT Đà Nẵng – 1.5 triệu USD).</p>
 						<p>• &nbsp; Dự án Giao thông thông minh (ITS) cao tốc Long Thành – Dầu Giây (1.5 triệu USD).</p>
