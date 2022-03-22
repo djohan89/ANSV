@@ -52,7 +52,7 @@
 							<h4 class="title">
 								<a href="HVOF01">Home Vision HVOF01</a>
 							</h4>
-							<p class="desc">Thiết bị camera giám sát ngoài trời do VNTP
+							<p class="desc">Thiết bị camera giám sát ngoài trời do VNPT
 								Technology nghiên cứu, phát triển và sản xuất phục vụ giám sát
 								an ninh cho ngôi nhà...</p>
 							<a href="HVOF01" class="read-more">Xem thêm</a>
