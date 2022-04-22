@@ -207,4 +207,10 @@ public class HomeController extends WebBaseController {
 		return mav;
 	}
 	
+	@RequestMapping(value = { "/chao-gia" }, method = RequestMethod.GET)
+	public ModelAndView chao_gia() {
+		ModelAndView mav = new ModelAndView("web/chao-gia");
+		return mav;
+	}
+	
 }

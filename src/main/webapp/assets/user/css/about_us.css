@@ -22,6 +22,16 @@ a:hover {
   color: #f27700;
   text-decoration: none;
 }
+a#link{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a#link:hover{
+	color: #007bff;
+	text-decoration: underline;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
