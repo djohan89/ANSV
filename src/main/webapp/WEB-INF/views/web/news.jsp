@@ -190,7 +190,7 @@
 											<span class="p-n-date">2022-04-21</span>
 										</div>
 										<h2 class="p-n-title">
-											<a href="#">THÔNG BÁO MỜI CHÀO GIÁ</a>
+											<a href="<c:url value='/chao-gia' />">THÔNG BÁO MỜI CHÀO GIÁ</a>
 										</h2>
 										<div class="p-n-desc justify">Công ty Trách Nhiệm Hữu Hạn Thiết Bị Viễn Thông ANSV – Về việc “Cung cấp dịch vụ vận chuyển hàng hóa năm 2022”</div>
 									</div>
