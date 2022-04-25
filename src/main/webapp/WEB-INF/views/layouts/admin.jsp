@@ -40,7 +40,8 @@
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
 
 <!-- Jquery -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
+<%-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script> --%>
+<script src="<c:url value='/assets/admin/js/jquery_3_6_0/jquery.min.js' />" type="text/javascript"></script>
 
 <!-- ===== ckeditor ===== -->
 <script src="<c:url value='/assets/ckeditor/ckeditor.js' />"></script>
