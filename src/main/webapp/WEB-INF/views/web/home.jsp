@@ -534,7 +534,32 @@ p {
 
 									<div class="feature f01" tabindex="0">
 										<div id="owl-demo" class="owl-carousel owl-theme">
-
+											<div class="item">
+												<div class="post-module">
+													<div class="thumbnail">
+														<img style="width: 100%"
+															src="<c:url value='/assets/user/img/news/thong_bao.jpg' />">
+													</div>
+													<div class="post-content">
+														<div class="post-content-child-news">
+															<img
+																src="<c:url value='/assets/user/img/header/ANSV_logo.png' />"
+																class="news-logo">
+															<h1 class="title"></h1>
+															<h2 class="sub_title_2 title-bold">
+																<div class="p-n-title">THÔNG BÁO MỜI CHÀO GIÁ</div>
+															</h2>
+															<div class="description">
+																<div class="p-n-content text-justify">Công ty Trách Nhiệm Hữu Hạn Thiết Bị Viễn Thông ANSV – Thông báo mời chào giá về việc “Cung cấp dịch vụ vận chuyển hàng hóa năm 2022”</div>
+															</div>
+															<div class="post-meta" align="right">
+																<span class="comments"><a href="<c:url value='/chao-gia' />">Xem thêm...</a>
+																</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
 											<c:forEach var="item_news" items="${news}" varStatus="index">
 
 												<div class="item">
@@ -566,6 +591,7 @@ p {
 												</div>
 
 											</c:forEach>
+											
 
 										</div>
 
