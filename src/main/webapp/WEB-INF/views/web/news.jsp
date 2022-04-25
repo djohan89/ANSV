@@ -187,7 +187,7 @@
 												<a href="javascript:void(0)">Tin tức truền thông</a>
 											</span>
 											<span class="pd-r-l-6">|</span>
-											<span class="p-n-date">2022-04-21</span>
+											<span class="p-n-date">2022-03-08</span>
 										</div>
 										<h2 class="p-n-title">
 											<a href="<c:url value='/chao-gia' />">THÔNG BÁO MỜI CHÀO GIÁ</a>
