@@ -43,10 +43,6 @@
 <%-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script> --%>
 <script src="<c:url value='/assets/admin/js/jquery_3_6_0/jquery.min.js' />" type="text/javascript"></script>
 
-<!-- ===== ckeditor ===== -->
-<script src="<c:url value='/assets/ckeditor/ckeditor.js' />"></script>
-<script src="<c:url value='/assets/ckeditor/adapters/jquery.js' />"></script>
-
 <style type="text/css">
 	.select2-container .select2-selection--single {
 		height: 34px;
@@ -94,12 +90,23 @@
 	$(document).ready(function() {
 	    $('#select2').select2();
 	    
-	    $(function() {
-			$("#content").ckeditor({
+	    /* $(":input").each(function() {
+	        var $this = $(this);
+	        if ($this.is("input")) {
+	            // <input> element.
+	        } else if ($this.is("select")) {
+	            // <select> element.
+	        } else if ($this.is("textarea")) {
+	            // <textarea> element.
+	        }
+	    }); */
+	    
+	    if ($("#content").is("textarea")) {
+	    	$("#content").ckeditor({
 				toolbar : 'Basic',
 				uiColor : '#F7D358'
 			});
-		}); 
+	    }
 	});
 	
 	function validate_form() {
@@ -113,6 +120,10 @@
 		
 	}
 </script>
+
+<!-- ===== ckeditor ===== -->
+<script src="<c:url value='/assets/ckeditor/ckeditor.js' />"></script>
+<script src="<c:url value='/assets/ckeditor/adapters/jquery.js' />"></script>
 
 <!--   Core JS Files  -->
 <%-- <script src="<c:url value='/assets/admin/js/jquery.min.js' />" type="text/javascript"></script> --%>
