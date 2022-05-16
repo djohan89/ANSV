@@ -98,4 +98,6 @@ public class NewsDao {
 		return jdbcTemplate.query(sql, new NewsDtoMapper());
 	}
 	
+	
+	
 }

@@ -420,7 +420,7 @@
 			$window.on('scroll', function() {
 				var $top = $(this).scrollTop();
 				$banner.stop().animate({
-					top : $top + $topDefault
+					top : $top -20
 				}, 1000, 'easeOutCirc');
 			});
 

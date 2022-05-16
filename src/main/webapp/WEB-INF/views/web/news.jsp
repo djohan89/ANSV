@@ -57,7 +57,7 @@
 							<c:forEach var="item_news1" items="${news1}" varStatus="index_news1">
 								<c:if test="${index_news1.first && item_news1.classify == item_news_type.name}">
 									<div class="post-news">
-										<a href="mesh_vs_rep"> 
+										<a href="<c:url value='/detail_${item_news1.id}' />"> 
 											<div class="b-n-images" style="background-image: url('<c:url value="/assets/user/img/news/${item_news1.img}" />');"></div>
 										</a>
 										<div class="p-n-info">
@@ -69,10 +69,10 @@
 												<span class="p-n-date">${item_news1.updated_at}</span>
 											</div>
 											<h2 class="p-n-title">
-												<a href="#">${item_news1.title}</a>
+												<a href="<c:url value='/detail_${item_news1.id}' />">${item_news1.title}</a>
 											</h2>
 											<div class="p-n-desc justify">${item_news1.summary}</div>
-											<a class="p-n-read-more" href="#">
+											<a class="p-n-read-more" href="<c:url value='/detail_${item_news1.id}' />">
 												Xem thêm <i class="ti ti-arrow-right"></i>
 											</a>
 										</div>
@@ -84,7 +84,7 @@
 							<c:forEach var="item_news2" items="${news2}" varStatus="index_news2">
 								<c:if test="${index_news2.first && item_news2.classify == item_news_type.name}">
 									<div class="post-news">
-										<a href="mesh_vs_rep"> 
+										<a href="<c:url value='/detail_${item_news2.id}' />"> 
 											<div class="b-n-images" style="background-image: url('<c:url value="/assets/user/img/news/${item_news2.img}" />');"></div>
 										</a>
 										<div class="p-n-info">
@@ -96,10 +96,10 @@
 												<span class="p-n-date">${item_news2.updated_at}</span>
 											</div>
 											<h2 class="p-n-title">
-												<a href="#">${item_news2.title}</a>
+												<a href=""<c:url value='/detail_${item_news2.id}' />"">${item_news2.title}</a>
 											</h2>
 											<div class="p-n-desc justify">${item_news2.summary}</div>
-											<a class="p-n-read-more" href="#">
+											<a class="p-n-read-more" href=""<c:url value='/detail_${item_news2.id}' />"">
 												Xem thêm <i class="ti ti-arrow-right"></i>
 											</a>
 										</div>
@@ -111,7 +111,7 @@
 							<c:forEach var="item_news3" items="${news3}" varStatus="index_news3">
 								<c:if test="${index_news3.first && item_news3.classify == item_news_type.name}">
 									<div class="post-news">
-										<a href="mesh_vs_rep"> 
+										<a href="<c:url value='/detail_${item_news3.id}' />"> 
 											<div class="b-n-images" style="background-image: url('<c:url value="/assets/user/img/news/${item_news3.img}" />');"></div>
 										</a>
 										<div class="p-n-info">
@@ -123,10 +123,10 @@
 												<span class="p-n-date">${item_news3.updated_at}</span>
 											</div>
 											<h2 class="p-n-title">
-												<a href="#">${item_news3.title}</a>
+												<a href="<c:url value='/detail_${item_news3.id}' />">${item_news3.title}</a>
 											</h2>
 											<div class="p-n-desc justify">${item_news3.summary}</div>
-											<a class="p-n-read-more" href="#">
+											<a class="p-n-read-more" href="<c:url value='/detail_${item_news3.id}' />">
 												Xem thêm <i class="ti ti-arrow-right"></i>
 											</a>
 										</div>
@@ -150,7 +150,7 @@
 													<span class="p-n-date">${item_news1.updated_at}</span>
 												</div>
 												<h2 class="p-n-title">
-													<a href="#">${item_news1.title}</a>
+													<a href="<c:url value='/detail_${item_news1.id}' />">${item_news1.title}</a>
 												</h2>
 												<div class="p-n-desc justify">${item_news1.summary}</div>
 											</div>
@@ -171,7 +171,7 @@
 													<span class="p-n-date">${item_news2.updated_at}</span>
 												</div>
 												<h2 class="p-n-title">
-													<a href="#">${item_news2.title}</a>
+													<a href="<c:url value='/detail_${item_news2.id}' />">${item_news2.title}</a>
 												</h2>
 												<p class="p-n-desc justify">${item_news2.summary}</p>
 											</div>
@@ -184,7 +184,7 @@
 									<div class="p-n-info">
 										<div class="mb-2">
 											<span class="p-n-cat">
-												<a href="javascript:void(0)">Tin tức truền thông</a>
+												<a href="javascript:void(0)">Tin tức</a>
 											</span>
 											<span class="pd-r-l-6">|</span>
 											<span class="p-n-date">2022-03-08</span>
@@ -207,13 +207,14 @@
 													<span class="p-n-date">${item_news3.updated_at}</span>
 												</div>
 												<h2 class="p-n-title">
-													<a href="#">${item_news3.title}</a>
+													<a href="<c:url value='/detail_${item_news3.id}' />">${item_news3.title}</a>
 												</h2>
 												<div class="p-n-desc justify">${item_news3.summary}</div>
 											</div>
 										</div>
 									</c:if>
 								</c:forEach>
+								
 								
 							</div>
 						</div>
@@ -227,6 +228,7 @@
 	</c:forEach>
 	
 	
+
 	
 	<%-- <div class="pt-0 site-section">
 		<div class="container">

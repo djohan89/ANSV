@@ -582,7 +582,7 @@ p {
 																</div>
 																<div class="post-meta" align="right">
 																	<span class="comments"> <a
-																		href="${item_news.url}">Xem thêm...</a>
+																		href="<c:url value='/detail_${item_news.id}' />">Xem thêm...</a>
 																	</span>
 																</div>
 															</div>

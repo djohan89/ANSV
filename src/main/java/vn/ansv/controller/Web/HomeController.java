@@ -1,6 +1,7 @@
 package vn.ansv.controller.Web;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -94,19 +95,6 @@ public class HomeController extends WebBaseController {
 		return mav;
 	}
 	
-	@RequestMapping(value = "/tin-tuc", method = RequestMethod.GET)
-	public ModelAndView newsPage() {
-		_mvShare.addObject("news_type", _news_typeService.findAll());
-		_mvShare.addObject("news", _newsService.findAllNews());
-		
-		_mvShare.addObject("news1", _newsService.findLimitByType1());
-		_mvShare.addObject("news2", _newsService.findLimitByType2());
-		_mvShare.addObject("news3", _newsService.findLimitByType3());
-		
-		_mvShare.setViewName("web/news");
-		return _mvShare;
-	}
-	
 	@RequestMapping(value = "/lien-he", method = RequestMethod.GET)
 	public ModelAndView contactPage() {
 		ModelAndView mav = new ModelAndView("web/contact");
@@ -185,21 +173,30 @@ public class HomeController extends WebBaseController {
 	
 	/* Tin tức */
 	
+	@RequestMapping(value = "/tin-tuc", method = RequestMethod.GET)
+	public ModelAndView newsPage() {
+		_mvShare.addObject("news_type", _news_typeService.findAll());
+		_mvShare.addObject("news", _newsService.findAllNews());
+		
+		_mvShare.addObject("news1", _newsService.findLimitByType1());
+		_mvShare.addObject("news2", _newsService.findLimitByType2());
+		_mvShare.addObject("news3", _newsService.findLimitByType3());
+		
+		_mvShare.setViewName("web/news");
+		return _mvShare;
+	}
+	
 	@RequestMapping(value = { "/mesh_vs_rep" }, method = RequestMethod.GET)
 	public ModelAndView mesh_vs_rep() {
 		ModelAndView mav = new ModelAndView("web/news/mesh_vs_rep");
 		return mav;
 	}
 	
-	
-	
 	@RequestMapping(value = { "/noi-bo" }, method = RequestMethod.GET)
 	public ModelAndView Internal() {
 		ModelAndView mav = new ModelAndView("web/internal/internal_home");
 		return mav;
 	}
-	
-	
 	
 	@RequestMapping(value = { "/home-test" }, method = RequestMethod.GET)
 	public ModelAndView homeTest() {
@@ -211,6 +208,20 @@ public class HomeController extends WebBaseController {
 	public ModelAndView chao_gia() {
 		ModelAndView mav = new ModelAndView("web/chao-gia");
 		return mav;
+	}
+	
+	@RequestMapping(value = { "/tuyen_dung" }, method = RequestMethod.GET)
+	public ModelAndView tuyen_dung() {
+		ModelAndView mav = new ModelAndView("web/tuyen_dung");
+		return mav;
+	}
+	
+	@RequestMapping(value = { "detail_{id}" }, method = RequestMethod.GET)
+	public ModelAndView detail(@PathVariable int id) {
+		_mvShare.addObject("get_new",_newsService.findByID(id));
+		_mvShare.setViewName("web/detail");
+		
+		return _mvShare;
 	}
 	
 }
