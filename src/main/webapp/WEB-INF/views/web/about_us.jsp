@@ -190,15 +190,15 @@
 	<script type="text/javascript">
 		jQuery(document).ready(function($) {
 			var $banner = $('.banner'), $window = $(window);
-			var $topDefault = parseFloat($banner.css('top'), 10);
+			var $topDefault = parseFloat($banner.css('top'),10); 
 			$window.on('scroll', function() {
 				var $top = $(this).scrollTop();
 				$banner.stop().animate({
-					top : $top + $topDefault
+					top : $top - 20
 				}, 1000, 'easeOutCirc');
 			});
 
-			var $wiBanner = $banner.outerWidth() * 2;
+			var $wiBanner = $banner.outerWidth() * 2; 
 			function zindex(maxWidth) {
 				if ($window.width() <= maxWidth + $wiBanner) {
 					$banner.addClass('zindex');

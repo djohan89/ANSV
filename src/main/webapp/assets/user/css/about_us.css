@@ -10,8 +10,8 @@
 --------------------------------------------------------------*/
 body {
   font-family:"Open Sans", sans-serif;
-  color: #4d4643;
-  font-size: 14px;
+  color: #000;
+  font-size: 15px;
 }
 
 a {
@@ -22,6 +22,16 @@ a:hover {
   color: #f27700;
   text-decoration: none;
 }
+
+#arrow{
+	color: #939393;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+#p-n-date{
+	right: 0;
+}
+
 a#link{
     color: #007bff;
     text-decoration: none;
@@ -562,7 +572,7 @@ ul.nav-pills a:hover::after{
 
 @media (min-width: 1024px){
 	body {
-	font-size: 14px;
+	font-size: 15px;
 }
 }
 
@@ -2521,6 +2531,13 @@ figcaption {
 .about-right img{
 	max-width: 100%
 }
+
+/*--------------------------------------------------------------
+#slick
+--------------------------------------------------------------*/
+
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
