@@ -9,12 +9,13 @@ import vn.ansv.Dao.News_typeDao;
 import vn.ansv.Entity.News_type;
 
 @Service
-public class News_typeService {
+public class NewsTypeService {
 
 	@Autowired
 	private News_typeDao news_typeDao;
 	
 	public List<News_type> findAll() {
+		// TODO Auto-generated method stub
 		return news_typeDao.findAll();
 	}
 	

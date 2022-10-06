@@ -105,7 +105,7 @@
 						<div class="content" style="padding-top: 6%;">
 							<div class="row">
 								<div class="col-md-12">
-									<c:url value="/admin/saveNews?${_csrf.parameterName}=${_csrf.token}" var="saveNews" />
+									<c:url value="/admin/web/quan-ly/saveNews?${_csrf.parameterName}=${_csrf.token}" var="saveNews" />
 									
 									<form:form action="${saveNews}" method="POST" modelAttribute="news" enctype="multipart/form-data">
 									

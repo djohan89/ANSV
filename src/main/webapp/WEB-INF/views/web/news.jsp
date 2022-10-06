@@ -34,7 +34,7 @@
 	
 	<c:forEach var="item_news_type" items="${news_type}" varStatus="index_news_type">
 		
-		<c:if test="${item_news_type.name != tin_tuyen_dung}">
+		
 			<div class="pt-0 site-section">
 				<div class="container">
 					<div class="row mb-5">
@@ -42,11 +42,11 @@
 							<h2 class="title_news"><i>${item_news_type.name}</i></h2>
 						</div>
 						<div class="col-md-6 col-6">
-							<div class="float-right pt-5">
+							<!-- <div class="float-right pt-5">
 								<a href="#" class="section-view-all">
 									Xem tất cả <i class="ti ti-angle-double-right"></i>
 								</a>
-							</div>
+							</div> -->
 						</div>
 					</div>
 					
@@ -66,7 +66,7 @@
 													<a>${item_news1.classify}</a>
 												</span> 
 												<span class="pd-r-l-6">|</span>
-												<span class="p-n-date">${item_news1.updated_at}</span>
+												<%--<span class="p-n-date">${item_news1.updated_at}</span>--%>
 											</div>
 											<h2 class="p-n-title">
 												<a href="<c:url value='/detail_${item_news1.id}' />">${item_news1.title}</a>
@@ -90,16 +90,16 @@
 										<div class="p-n-info">
 											<div class="mb-2">
 												<span class="p-n-cat">
-													<a>${item_news2.classify}</a>
+													<a>${item_news2.classify}</a> 
 												</span> 
 												<span class="pd-r-l-6">|</span>
-												<span class="p-n-date">${item_news2.updated_at}</span>
+												<%--<span class="p-n-date">${item_news2.updated_at}</span>--%>
 											</div>
 											<h2 class="p-n-title">
-												<a href=""<c:url value='/detail_${item_news2.id}' />"">${item_news2.title}</a>
+												<a href="<c:url value='/detail_${item_news2.id}' />">${item_news2.title}</a>
 											</h2>
 											<div class="p-n-desc justify">${item_news2.summary}</div>
-											<a class="p-n-read-more" href=""<c:url value='/detail_${item_news2.id}' />"">
+											<a class="p-n-read-more" href="<c:url value='/detail_${item_news2.id}' />">
 												Xem thêm <i class="ti ti-arrow-right"></i>
 											</a>
 										</div>
@@ -120,13 +120,39 @@
 													<a>${item_news3.classify}</a>
 												</span> 
 												<span class="pd-r-l-6">|</span>
-												<span class="p-n-date">${item_news3.updated_at}</span>
+												<%--<span class="p-n-date">${item_news3.updated_at}</span>--%>
 											</div>
 											<h2 class="p-n-title">
 												<a href="<c:url value='/detail_${item_news3.id}' />">${item_news3.title}</a>
 											</h2>
 											<div class="p-n-desc justify">${item_news3.summary}</div>
 											<a class="p-n-read-more" href="<c:url value='/detail_${item_news3.id}' />">
+												Xem thêm <i class="ti ti-arrow-right"></i>
+											</a>
+										</div>
+									</div>
+								</c:if>
+							</c:forEach>
+							
+							<c:forEach var="item_news4" items="${news4}" varStatus="index_news4">
+								<c:if test="${index_news4.first && item_news4.classify == item_news_type.name}">
+									<div class="post-news">
+										<a href="<c:url value='/detail_${item_news4.id}' />"> 
+											<div class="b-n-images" style="background-image: url('<c:url value="/assets/user/img/news/${item_news4.img}" />');"></div>
+										</a>
+										<div class="p-n-info">
+											<div class="mb-2">
+												<span class="p-n-cat">
+													<a>${item_news4.classify}</a>
+												</span> 
+												<span class="pd-r-l-6">|</span>
+												<%--<span class="p-n-date">${item_news3.updated_at}</span>--%>
+											</div>
+											<h2 class="p-n-title">
+												<a href="<c:url value='/detail_${item_news4.id}' />">${item_news4.title}</a>
+											</h2>
+											<div class="p-n-desc justify">${item_news4.summary}</div>
+											<a class="p-n-read-more" href="<c:url value='/detail_${item_news4.id}' />">
 												Xem thêm <i class="ti ti-arrow-right"></i>
 											</a>
 										</div>
@@ -147,7 +173,7 @@
 														<a href="javascript:void(0)">${item_news1.classify}</a>
 													</span>
 													<span class="pd-r-l-6">|</span>
-													<span class="p-n-date">${item_news1.updated_at}</span>
+													<%--<span class="p-n-date">${item_news1.updated_at}</span>--%>
 												</div>
 												<h2 class="p-n-title">
 													<a href="<c:url value='/detail_${item_news1.id}' />">${item_news1.title}</a>
@@ -168,7 +194,7 @@
 														<a href="javascript:void(0)">${item_news2.classify}</a>
 													</span>
 													<span class="pd-r-l-6">|</span>
-													<span class="p-n-date">${item_news2.updated_at}</span>
+													<%--<span class="p-n-date">${item_news2.updated_at}</span>--%>
 												</div>
 												<h2 class="p-n-title">
 													<a href="<c:url value='/detail_${item_news2.id}' />">${item_news2.title}</a>
@@ -179,22 +205,22 @@
 									</c:if>
 								</c:forEach>
 								
-								<%-- Loại tin tức thứ ba --%>
-								<div class="post-news">
-									<div class="p-n-info">
-										<div class="mb-2">
-											<span class="p-n-cat">
-												<a href="javascript:void(0)">Tin tức</a>
-											</span>
-											<span class="pd-r-l-6">|</span>
-											<span class="p-n-date">2022-03-08</span>
-										</div>
-										<h2 class="p-n-title">
-											<a href="<c:url value='/chao-gia' />">THÔNG BÁO MỜI CHÀO GIÁ</a>
-										</h2>
-										<div class="p-n-desc justify">Công ty Trách Nhiệm Hữu Hạn Thiết Bị Viễn Thông ANSV – Về việc “Cung cấp dịch vụ vận chuyển hàng hóa năm 2022”</div>
-									</div>
-								</div>
+								<%--&lt;%&ndash; Loại tin tức thứ ba &ndash;%&gt;--%>
+								<%--<div class="post-news">--%>
+									<%--<div class="p-n-info">--%>
+										<%--<div class="mb-2">--%>
+											<%--<span class="p-n-cat">--%>
+												<%--<a href="javascript:void(0)">Tin tức</a>--%>
+											<%--</span>--%>
+											<%--<span class="pd-r-l-6">|</span>--%>
+											<%--<span class="p-n-date">2022-03-08</span>--%>
+										<%--</div>--%>
+										<%--<h2 class="p-n-title">--%>
+											<%--<a href="<c:url value='/chao-gia' />">THÔNG BÁO MỜI CHÀO GIÁ</a>--%>
+										<%--</h2>--%>
+										<%--<div class="p-n-desc justify">Công ty Trách Nhiệm Hữu Hạn Thiết Bị Viễn Thông ANSV – Về việc “Cung cấp dịch vụ vận chuyển hàng hóa năm 2022”</div>--%>
+									<%--</div>--%>
+								<%--</div>--%>
 								<c:forEach var="item_news3" items="${news3}" varStatus="index_news3">
 									<c:if test="${(not index_news3.first) && item_news3.classify == item_news_type.name}">
 										<div class="post-news">
@@ -204,7 +230,7 @@
 														<a href="javascript:void(0)">${item_news3.classify}</a>
 													</span>
 													<span class="pd-r-l-6">|</span>
-													<span class="p-n-date">${item_news3.updated_at}</span>
+													<%--<span class="p-n-date">${item_news3.updated_at}</span>--%>
 												</div>
 												<h2 class="p-n-title">
 													<a href="<c:url value='/detail_${item_news3.id}' />">${item_news3.title}</a>
@@ -213,9 +239,29 @@
 											</div>
 										</div>
 									</c:if>
+									
 								</c:forEach>
 								
-								
+								<c:forEach var="item_news4" items="${news4}" varStatus="index_news4">
+									<c:if test="${(not index_news4.first) && item_news4.classify == item_news_type.name}">
+										<div class="post-news">
+											<div class="p-n-info">
+												<div class="mb-2">
+													<span class="p-n-cat">
+														<a href="javascript:void(0)">${item_news4.classify}</a>
+													</span>
+													<span class="pd-r-l-6">|</span>
+													<%--<span class="p-n-date">${item_news3.updated_at}</span>--%>
+												</div>
+												<h2 class="p-n-title">
+													<a href="<c:url value='/detail_${item_news4.id}' />">${item_news4.title}</a>
+												</h2>
+												<div class="p-n-desc justify">${item_news4.summary}</div>
+											</div>
+										</div>
+									</c:if>
+									
+								</c:forEach>
 							</div>
 						</div>
 			
@@ -223,7 +269,7 @@
 					
 				</div>
 			</div>
-		</c:if>
+	
 		
 	</c:forEach>
 	

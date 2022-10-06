@@ -18,10 +18,10 @@
 								<p class="category">Quản trị mục tin tức</p>
 								</div>
 								<div class="col-md-3">
-									<c:url value="/admin/news/details" var="urlDetails" />
-									<c:url value="/admin/news/save" var="urlSave" />
-									<c:url value="/admin/news/update" var="urlUpdate" />
-									<c:url value="/admin/newsDelete" var="urlDelete" />
+									<c:url value="/admin/web/quan-ly/news/details" var="urlDetails" />
+									<c:url value="/admin/web/quan-ly/news/save" var="urlSave" />
+									<c:url value="/admin/web/quan-ly/news/update" var="urlUpdate" />
+									<c:url value="/admin/web/quan-ly/news/delete" var="urlDelete" />
 									<a href="${urlSave}" style="float: right;">
 										<button type="button" class="btn btn-primary btn-fill btn-wd"><b>Add News</b></button>
 									</a>

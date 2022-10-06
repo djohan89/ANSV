@@ -18,7 +18,7 @@
 								<p class="category">Quản trị mục nổi bật</p>
 								</div>
 								<div class="col-md-2">
-									<c:url value="/admin/highlight/update" var="urlUpdate" />
+									<c:url value="/admin/web/quan-ly/highlight/update" var="urlUpdate" />
 									<a href="<c:url value='/trang-chu#muc-noi-bat' />" target="_blank" style="float: right;">
 										<button type="button" class="btn btn-success btn-fill btn-wd" style="min-width: 64px;">
 											<b>Hiển thị</b>

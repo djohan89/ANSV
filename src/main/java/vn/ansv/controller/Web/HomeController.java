@@ -181,6 +181,7 @@ public class HomeController extends WebBaseController {
 		_mvShare.addObject("news1", _newsService.findLimitByType1());
 		_mvShare.addObject("news2", _newsService.findLimitByType2());
 		_mvShare.addObject("news3", _newsService.findLimitByType3());
+		_mvShare.addObject("news4", _newsService.findLimitByType4());
 		
 		_mvShare.setViewName("web/news");
 		return _mvShare;
@@ -192,11 +193,11 @@ public class HomeController extends WebBaseController {
 		return mav;
 	}
 	
-	@RequestMapping(value = { "/noi-bo" }, method = RequestMethod.GET)
-	public ModelAndView Internal() {
-		ModelAndView mav = new ModelAndView("web/internal/internal_home");
-		return mav;
-	}
+//	@RequestMapping(value = { "/noi-bo" }, method = RequestMethod.GET)
+//	public ModelAndView Internal() {
+//		ModelAndView mav = new ModelAndView("web/internal/internal_home");
+//		return mav;
+//	}
 	
 	@RequestMapping(value = { "/home-test" }, method = RequestMethod.GET)
 	public ModelAndView homeTest() {
