@@ -1,9 +1,7 @@
 eclipse.preferences.version=1
 encoding//src/main/java/vn/ansv/Dao/NewsDao.java=UTF-8
+encoding//src/main/java/vn/ansv/controller/Admin/CourseController.java=UTF-8
 encoding//src/main/java/vn/ansv/controller/Admin/FileUploadController.java=UTF-8
-encoding//src/main/java/vn/ansv/controller/Admin/HighlightController.java=UTF-8
 encoding//src/main/java/vn/ansv/controller/Admin/LoginController.java=UTF-8
-encoding//src/main/java/vn/ansv/controller/Admin/NewsController.java=UTF-8
-encoding//src/main/java/vn/ansv/controller/Admin/SlidesController.java=UTF-8
 encoding//src/main/java/vn/ansv/controller/Web/HomeController.java=UTF-8
 encoding//src/main/webapp/assets/user/css/css_background_animation/style_background_animation.css=UTF-8
