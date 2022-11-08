@@ -22,7 +22,7 @@
 								<p class="category">Chỉnh sửa nội dung tin tức</p>
 							</div>
 							<div class="col-md-4">
-								<a href="<c:url value='/admin/news/list' />" style="float: right;">
+								<a href="<c:url value='/admin/web/quan-ly/news' />" style="float: right;">
 									<button type="button" class="btn btn-success btn-fill btn-wd"><b>List News</b></button>
 								</a>
 							</div>
@@ -30,7 +30,7 @@
 						<div class="content">
 							<div class="row">
 								<div class="col-md-12" style="padding-top: 2%;">
-									<c:url value="/admin/updateNews?${_csrf.parameterName}=${_csrf.token}" var="updateNews" />
+									<c:url value="/admin/web/quan-ly/updateNews?${_csrf.parameterName}=${_csrf.token}" var="updateNews" />
 									<form:form action="${updateNews}" method="POST" modelAttribute="news" enctype="multipart/form-data">
 									
 										<div class="col-md-8">
@@ -55,7 +55,7 @@
 													  	</form:select>
 													</td>
 													<td style="width: 50%">
-														<form:input path="url" class="form-control" placeholder="Link đến bài viết chi tiết..." required="required" />
+														<form:hidden path="url" class="form-control" placeholder="Link đến bài viết chi tiết..." required="required" />
 													</td>
 												</tr>
 											</table>
@@ -137,6 +137,22 @@
 	</div>
 	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- <script type="text/javascript">
+	$(document).ready(function(){
+		
+		if( $("#img_name").value != 0){
+			$(".imgupload").hide("slow");
+		    $(".imgupload.stop").hide("slow");
+		    $(".imgupload.ok").show("slow");
+
+		    $("#namefile").css({ color: "green", "font-weight": 700 });
+		    
+	
+		    $("#submitbtn").show();
+		    $("#fakebtn").hide();
+		}
+	})
+	</script> -->
 	<script src="<c:url value="/assets/admin/js/admin_upload_file.js" />"></script>
 	
 	<script src="<c:url value='/assets/ckeditor/handmade-ckeditor.js' />"></script>

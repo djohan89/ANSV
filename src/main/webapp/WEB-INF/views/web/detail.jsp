@@ -44,7 +44,7 @@
 									<div class="col-md-1">
 										
 									</div>
-									<div class="col-md-2"><span class="p-n-date" id="p-n-date">${get_new.updated_at}</span></div>
+									<!--<div class="col-md-2"><span class="p-n-date" id="p-n-date">${get_new.updated_at}</span></div>  -->
 								</div>
 							</div>
 						</div>

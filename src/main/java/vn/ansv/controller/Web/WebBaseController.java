@@ -6,7 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import vn.ansv.Service.Admin.HighlightService;
 import vn.ansv.Service.Admin.NewsService;
-import vn.ansv.Service.Admin.News_typeService;
+import vn.ansv.Service.Admin.NewsTypeService;
 import vn.ansv.Service.Admin.SlideshowService;
 import vn.ansv.Service.Web.HomeServiceImpl;
 
@@ -26,7 +26,7 @@ public class WebBaseController {
 	NewsService _newsService;
 	
 	@Autowired
-	News_typeService _news_typeService;
+	NewsTypeService _news_typeService;
 	
 	public ModelAndView _mvShare = new ModelAndView();
 	

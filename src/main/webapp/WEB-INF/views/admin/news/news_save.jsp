@@ -105,7 +105,7 @@
 						<div class="content" style="padding-top: 6%;">
 							<div class="row">
 								<div class="col-md-12">
-									<c:url value="/admin/saveNews?${_csrf.parameterName}=${_csrf.token}" var="saveNews" />
+									<c:url value="/admin/web/quan-ly/saveNews?${_csrf.parameterName}=${_csrf.token}" var="saveNews" />
 									
 									<form:form action="${saveNews}" method="POST" modelAttribute="news" enctype="multipart/form-data">
 									
@@ -131,7 +131,7 @@
 													  	</form:select>
 													</td>
 													<td style="width: 50%">
-														<form:input path="url" class="form-control" placeholder="Link đến bài viết chi tiết..." required="required" />
+														<form:hidden path="url" class="form-control" placeholder="Link đến bài viết chi tiết..." required="required" />
 													</td>
 												</tr>
 											</table>

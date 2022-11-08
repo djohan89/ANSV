@@ -30,7 +30,7 @@
 						<div class="content">
 							<div class="row">
 								<div class="col-md-12" style="padding-top: 2%;">
-									<c:url value="/admin/updateHighlight?${_csrf.parameterName}=${_csrf.token}" var="updateHighlight" />
+									<c:url value="/admin/web/quan-ly/updateHighlight?${_csrf.parameterName}=${_csrf.token}" var="updateHighlight" />
 									<form:form action="${updateHighlight}" method="POST" modelAttribute="highlight" enctype="multipart/form-data">
 										
 										<div class="col-md-7" style="padding-top: 1%;">
